@@ -6,11 +6,56 @@
 
 header{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX998A4nWFu3lOFwYZTlJqpRea0LjkA_yea-c115zf1Y13sqN5");
-  height: 60vh;
+  height: 48vh;
   background-size: cover;
   background-position: center;
   
 }
+
+.header1{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("http://chalojungle.com/images/gallery/5997059334201810759.jpg");
+  height: 68vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.header2{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("http://www.wallpapermania.eu/images/lthumbs/2013-01/4074_Winter-landscape-Snowy-mountain-peaks.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 75vh;
+  
+}
+
+.header3{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.thrillophilia.com/image/upload/s--QrPjqNho--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/046/475/original/1525775826_Jaipur_Main.jpg.jpg?1525775826");
+  background-size: cover;
+  background-position: "center";
+  height: 75vh;
+}
+
+.header4{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.ecosia.org/kHJzq1qr5Up6p6FAIQLsXVesqBo=/0x390/smart/http%3A%2F%2Fd27k8xmh3cuzik.cloudfront.net%2Fwp-content%2Fuploads%2F2016%2F07%2Fshutterstock_552748282-honeymoon-couple-relax-on-sunset-beach.-Sea-view-with-lighthouse-in-Vietnam.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 75vh;
+}
+
+.header5{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.ecosia.org/RvE-qPQIQ9EllXKNhqQweRZCRH0=/0x390/smart/https%3A%2F%2Fwallpapershome.com%2Fimages%2Fwallpapers%2Fbrown-bear-3840x2160-bear-tread-step-walk-forest-trees-foliage-blur-930.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 75vh;
+}
+
+.header6{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.ecosia.org/BAvRaX4UVJ6o58-4y24V5WBoOyk=/0x390/smart/http%3A%2F%2Fbeinglol.com%2Fmedia%2Ffacebook-cover%2FSea-Side-Road-Trip-facebook-covers-2602.jpeg");
+  background-size: cover;
+  background-position: "center";
+  height: 75vh;
+}
+
 
 ul{
   
@@ -18,8 +63,6 @@ ul{
   list-style-type: none;
   
 }
-
-
 
 ul li{
   display: inline-block;
@@ -51,7 +94,19 @@ ul li a:hover{
   height: 10vh;
 } 
 
+.uilogo1 Img{
+  bottom: 30px;
+  
+  width: 50vh;
+  height: 10vh;
+} 
+
 .ui main{
+  max-width: 1400px;
+  margin: auto;
+}
+
+.uimain1{
   max-width: 1400px;
   margin: auto;
 }
@@ -67,7 +122,7 @@ ul li a:hover{
 .title h1{
   text-align: center;
   color: #fff;
-  font-size: 40px;
+  font-size: 32px;
 }
 
 .button{
@@ -78,7 +133,7 @@ ul li a:hover{
 }
 
 .btn{
-  border: 1px solid #fff;
+  border: 1px solid #C0C0C0;
   padding: 10px 30px;
   color: #fff;
   text-decoration: none;
@@ -86,36 +141,43 @@ ul li a:hover{
 }
 
 .btn:hover{
-  background-color: #fff;
+  background-color: #EE82EE;
   color: black;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  padding: 1px;
+  padding: 2px;
   border: 1px solid #fff;
+}
+
+
+.item:hover{
+ 
+  background-color: #EE82EE;
+  color: black;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #FAF0E6;
   min-width: 120px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 15px 16px;
   z-index: 2;
 
 }
 
 .dropdown-content a {
-  color: black;
+  color: #000000	;
   padding: 8px 12px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: wheat}
+.dropdown-content a:hover {background-color: #87CEEB}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -130,9 +192,9 @@ ul li a:hover{
 
 .paragraph{
  
-  padding: 12px;
+  padding: 8px;
   text-align: absolute;
-  font-size: 18px; 
+  font-size: 20px; 
 }
 
 .title2 {
@@ -210,3 +272,258 @@ ul li a:hover{
     clear: both;
     display: table;
   }
+
+  /*.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }*/
+  
+  /* Add styles to the form container */
+  
+
+  .popupBody {
+		padding: 23px;
+}
+/* Social Login Form */
+
+
+.social_login .social_box {
+		display: block;
+		clear: both;
+		padding: 10px;
+		margin-bottom: 10px;
+		background: #F4F4F2;
+		overflow: hidden;
+}
+
+.social_login .icon {
+		display: block;
+		width: 10px;
+		padding: 5px 10px;
+		margin-right: 10px;
+		float: left;
+		color: #FFF;
+		font-size: 16px;
+		text-align: center;
+}
+
+.social_login .fb .icon {
+		background: #3B5998;
+}
+
+.social_login .google .icon {
+		background: #DD4B39;
+}
+
+.social_login .icon_title {
+  display: block;
+  padding: 5px 0;
+  float: left;
+  font-weight: bold;
+  font-size: 16px;
+  color: #777;
+}
+
+.social_login .social_box:hover {
+  background: #E4E4E2;
+}
+
+.centeredText {
+  text-align: center;
+  margin: 20px 0;
+  clear: both;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+
+.action_btns {
+  clear: both;
+  overflow: hidden;
+}
+
+.action_btns a {
+  display: block;
+}
+
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+    text-align: center;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+
+  .input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+ 
+  .confirm_btn{
+  
+    color: white;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+  .centered {
+    position: absolute;
+    top: 49%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .centered1 {
+    position: absolute;
+    top: 24%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .centered2 {
+    position: absolute;
+    top: 22%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+ 
+
+  .menu ul li{
+    position: relative;
+    top: 0%
+  
+  }
+
+  .input-field0{
+    width: 271px;
+  height: 39  px;
+  border: 2px light grey; 
+  }
+
+  .input-field1{
+    padding: 4px;
+    width: 270px;
+    display: block;
+		clear: both;
+		margin-bottom: 12px;
+		background: #FFFFFF;
+		overflow: hidden;
+  }
+
+  /*.input-field2 .btn{
+    padding: 5px;
+    width: 220px;
+  }*/
+
+  .ui_days{
+    padding: 15px;
+    
+    line-height: 1.6;
+    height: 250px;
+    width: 50%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-column-gap:135px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+   
+    padding: 1px;
+    font-size: 14px;
+    text-align: left;
+    color: #506066;
+  }
+
+  .grid-item Link :hover{
+    background-color:#337ab7;
+    text-decoration: none;
+  }
+
+  .footer_size{
+    font-size: 14px;
+    padding-top: 80px;
+    color: #506066;
+  }
+
+  .footer_size1{
+    font-size: 12px;
+    position: absolute;
+    left: 490px;
+    border-style: ridge;
+  }
+

@@ -2,8 +2,10 @@ import React from 'react';
 import _ from 'lodash';
 import { Field,reduxForm} from 'redux-form';
 import { RegisterUserAction } from '../actions/types';
+import '../components/index.css';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+
 
 class SignUp extends React.Component{
     renderError({touched,error}){
@@ -47,52 +49,38 @@ class SignUp extends React.Component{
         //console.log(this.props);
        // if(!localStorage.getItem("authToken")){
         return(
-            <div>
-                <h1>SignUp Form</h1 >
+            <div className="form-popup" id="myForm">
+             <form action="/action_page.php" className="form-container"></form>
+                <h1 style={{color:"green"}}>Sign Up</h1 >
                 <br></br>
                     <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
-                        <Field  
-                            type="text" 
-                            name="first_name" 
-                            component={this.renderInput} 
-                            label="First Name (Must be 5 to 15 characters)" 
-                        />
-                        <Field  
-                            type="text" 
-                            name="last_name" 
-                            component={this.renderInput} 
-                            label="Last Name (Must be 5 to 15 characters)" 
-                        />
-                        <Field  
-                            type="text" 
-                            name="username" 
-                            component={this.renderInput} 
-                            label="UserName   (Must be 5 to 15 characters)" 
-                        />
-                        <Field  
-                            type="email" 
-                            name="email" 
-                            component={this.renderInput} 
-                            label="Email ID" 
-                        />
+                    <label for="firstname"><b>First Name</b></label>
+                    <input type="text" placeholder="Enter First Name" name="first name" required />
 
+                    <label for="lastname"><b>Last Name</b></label>
+                    <input type="text" placeholder="Enter Last Name" name="Last name" required />
 
-                        <Field  
-                            type="password" 
-                            name="password" 
-                            component={this.renderInput} 
-                            label="Password   (Atleast 8 or more characters)" 
-                        />
-                    
-                        <Field  
-                            type="password" 
-                            name="cfm_password" 
-                            component={this.renderInput} 
-                            label="Confirm Password" 
-                        />
-                        <button type="submit"  className="ui button primary">Submit</button>
-                        <Link to="/signin" className="ui button">Cancel</Link>
+                    <label for="username"><b>User Name</b></label>
+                    <input type="text" placeholder="Enter User Name" name="user name" required />
+
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email Id" name="email" required />
+
+                    <label for="mobileno"><b>Mobile No.</b></label>
+                    <input type="number" placeholder="Mobile No." name="mobile no" required />
+
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="password" required />
+
+                    <label for="cfm_password"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Confirm Password" name="cfm_password" required />
                     </form>
+                    <br></br>
+                       
+            <button type="submit" className="btn" style={{backgroundColor:"green"}}>Submit</button>
+            <Link to="/user/signin" type="btn cancel" class="btn cancel" style={{backgroundColor:"red"}} onclick="closeForm()">Cancel</Link>
+        
+                       
             </div>
             
         );
