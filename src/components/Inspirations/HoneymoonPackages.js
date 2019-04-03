@@ -31,7 +31,7 @@ class HoneymoonPackages extends React.Component{
                             <button className="dropbtn">Inspirations</button>
                              <div className="dropdown-content">
                                
-                                <Link to="/inspiration/Experiences" className="item">Experiences</Link>
+                              
                                 <Link to="/inspiration/beaches" className="item">Beaches</Link>
                                <Link to="/inspiration/Mountains" className="item">Mountains</Link>
                                 <Link to="/inspiration/Heritage" className="item">Heritage</Link>
@@ -43,7 +43,7 @@ class HoneymoonPackages extends React.Component{
                     </header>
 
                     <div>
-                        <h3 className="title1" style={{color:"black",padding:"20px",fontSize:"35px"}}>Honeymoon Packages' Inspiration</h3>
+                        <h3 className="title1" style={{color:"black",padding:"20px",fontSize:"30px"}}><Link to="/" style={{fontSize:"20px"}}><i>home/</i></Link>Honeymoon Packages' Inspiration</h3>
                     </div>  
 
                 <div className="ui container">

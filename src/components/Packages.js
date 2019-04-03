@@ -46,12 +46,10 @@ class Packages extends React.Component{
                             <button class="dropbtn">Choose Category</button>
                             <div className="dropdown-content">
                                 <Link to="/categories/family">Family Holidays</Link>
-                                <Link to="/categories/friends">Friends Trips</Link>
+                                <Link to="/categories/friends">Friends Road Trips</Link>
                                 <Link to="/categories/honeymoon">Honeymoon Special</Link>
                                 <Link to="/categories/budget">Budget Getaways</Link>
-                                <Link to="/categories/roadtrips">Road Trips</Link>
                                 <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
-                                <Link to="/categories/luxuryescapes">Luxury Escapes</Link>
                             </div>
                         </div>
                 </header>

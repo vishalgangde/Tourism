@@ -30,7 +30,7 @@ class Heritage extends React.Component{
                             <button className="dropbtn">Inspirations</button>
                              <div className="dropdown-content">
                                
-                                <Link to="/inspiration/Experiences" className="item">Experiences</Link>
+                               
                                 <Link to="/inspiration/beaches" className="item">Beaches</Link>
                                <Link to="/inspiration/Mountains" className="item">Mountains</Link>
                                 <Link to="/inspiration/Heritage" className="item">Heritage</Link>
@@ -42,7 +42,7 @@ class Heritage extends React.Component{
                     </header>
 
                     <div>
-                        <h3 className="title1" style={{color:"black",padding:"20px",fontSize:"35px"}}>Heritage</h3>
+                        <h3 className="title1" style={{color:"black",padding:"20px",fontSize:"30px"}}><Link to="/" style={{fontSize:"20px"}}><i>home/</i></Link>Heritage</h3>
                          <p className="paragraph" style={{padding:"20px"}}>India has cradled many civilisations and kingdoms;
                             some revelled in power and other crumbled to dust. Either way, the marks of our country's glorious 
                             past are sprinkled across land and sea. So, if you want to travel back in time for your next vacation,

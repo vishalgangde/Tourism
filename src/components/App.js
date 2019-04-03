@@ -35,7 +35,7 @@ import FriendsTrips from './Categories/FriendsTrips';
 import HoneymoonSpecial from './Categories/HoneymoonSpecial';
 import BudgetGetaways from './Categories/BudgetGetaways';
 import ThrillingTreks from './Categories/ThrillingTreks';
-import LuxuryEscapes from './Categories/LuxuryEscapes';
+
 class App extends React.Component{
     render(){
         return(
@@ -77,8 +77,7 @@ class App extends React.Component{
                     <Route path='/categories/honeymoon' exact component={HoneymoonSpecial} />
                     <Route path='/categories/budget' exact component={BudgetGetaways} />
                     <Route path='/categories/thrillingtreks' exact component={ThrillingTreks} />
-                    <Route path='/categories/luxuryescapes' exact component={LuxuryEscapes} />
-
+                   
 
 
 

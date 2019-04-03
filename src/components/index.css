@@ -13,18 +13,18 @@ header{
 }
 
 .header1{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("http://chalojungle.com/images/gallery/5997059334201810759.jpg");
-  height: 68vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?cs=srgb&dl=beach-exotic-holiday-248797.jpg&fm=jpg");
+  height: 80vh;
   background-size: cover;
   background-position: center;
   
 }
 
 .header2{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("http://www.wallpapermania.eu/images/lthumbs/2013-01/4074_Winter-landscape-Snowy-mountain-peaks.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://wallpaperplay.com/walls/full/d/d/4/112319.jpg");
   background-size: cover;
   background-position: "center";
-  height: 75vh;
+  height: 80vh;
   
 }
 
@@ -32,29 +32,95 @@ header{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.thrillophilia.com/image/upload/s--QrPjqNho--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/046/475/original/1525775826_Jaipur_Main.jpg.jpg?1525775826");
   background-size: cover;
   background-position: "center";
-  height: 75vh;
+  height: 80vh;
 }
 
 .header4{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.ecosia.org/kHJzq1qr5Up6p6FAIQLsXVesqBo=/0x390/smart/http%3A%2F%2Fd27k8xmh3cuzik.cloudfront.net%2Fwp-content%2Fuploads%2F2016%2F07%2Fshutterstock_552748282-honeymoon-couple-relax-on-sunset-beach.-Sea-view-with-lighthouse-in-Vietnam.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("http://www.thaihoneymoons.com/uploads/5/2/7/5/52759533/_7593981_orig.jpg ");
   background-size: cover;
   background-position: "center";
-  height: 75vh;
+  height: 80vh;
 }
 
 .header5{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.ecosia.org/RvE-qPQIQ9EllXKNhqQweRZCRH0=/0x390/smart/https%3A%2F%2Fwallpapershome.com%2Fimages%2Fwallpapers%2Fbrown-bear-3840x2160-bear-tread-step-walk-forest-trees-foliage-blur-930.jpg");
   background-size: cover;
   background-position: "center";
-  height: 75vh;
+  height: 80vh;
 }
 
 .header6{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.ecosia.org/BAvRaX4UVJ6o58-4y24V5WBoOyk=/0x390/smart/http%3A%2F%2Fbeinglol.com%2Fmedia%2Ffacebook-cover%2FSea-Side-Road-Trip-facebook-covers-2602.jpeg");
   background-size: cover;
   background-position: "center";
-  height: 75vh;
+  height: 80vh;
 }
+
+.header7{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("http://yesofcorsa.com/wp-content/uploads/2018/06/Summer-Vacation-Best-Wallpaper.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 80vh;
+}
+
+.header8{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://ak3.picdn.net/shutterstock/videos/22280803/thumb/1.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 80vh;
+}
+
+.header9  {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://ak3.picdn.net/shutterstock/videos/22280803/thumb/1.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 80vh;
+}
+
+.header10{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://blog.transportinindia.in/wp-content/uploads/2018/11/dubai_resort_landscape_04_03_2011_8541-1440x465-banneropt.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 80vh;
+}
+
+.header11{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.alphacoders.com/738/738037.jpg");
+  background-size: cover;
+  background-position: "center";
+  height: 80vh;
+}
+
+.topnav {
+  position: absolute;
+  top: 38%;
+  left: 32%;
+  height:30px;
+  width: 50px;
+  transform: translate(-50%,-50%);
+}
+
+.topnav .search-container{
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-right: 16px;
+  background: white;
+  font-size: 17px;
+ 
+  
+}
+
+.date{
+  position: absolute;
+  top: 69%;
+  left: 652%;
+  height:27px;
+  width: 154px;
+  transform: translate(-50%,-50%);
+  background-color:  
+}
+
+
 
 
 ul{
