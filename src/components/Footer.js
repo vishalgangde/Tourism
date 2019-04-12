@@ -6,7 +6,7 @@ class Footer extends React.Component{
     render(){
         return(
            
-            <div> 
+            <div className="color"> 
                 <footer>
                 <div className="ui logo">
                             <Img src={require("./images/logo1.png")} alt="a"/>
@@ -46,16 +46,15 @@ class Footer extends React.Component{
                 <div>
                     <h2 className="footer_size">More Links</h2>
                     <div className="grid-item">
-                        <Link to="/goa">Goa</Link><br/>
-                        <Link to="/kerela">Kerela</Link><br/>
-                        <Link to="/dharamshala">Dharamshala Travel Guide</Link><br/> 
-                        <Link to="/rajasthan travel">Rajasthan Travel Guide</Link><br/> 
-                        <Link to="/Manali travel">Manali Travel Guide</Link><br/> 
-                        <Link to="/ooty travel">Places To Visit in Ooty</Link><br/> 
-                        <Link to="/kolkata travel">Places To Visit in Kolkata</Link><br/> 
-                        <Link to="/mysore travel">Places To Visit in Mysore</Link><br/> 
-                        <Link to="/Honeymoon Destinations In India">Honeymoon Destinations In India</Link><br/>
-                        <Link to="/honeymoon packages">Honeymoon Packages</Link>
+                        <Link to="/tour-package/Goa Chapora Beach">Goa</Link><br/>
+                        <Link to="/tour-package/Kerela Chavakkad">Kerela</Link><br/>
+                        <Link to="/dharamshala">Dharamshala Travel</Link><br/> 
+                        <Link to="/tour-package/Rajasthan">Rajasthan Trip</Link><br/> 
+                        <Link to="/tour-package/Rohtang Pass Manali">Manali Travel </Link><br/> 
+                        <Link to="/inspiration/WildlifeTourism">Places To Visit National Park</Link><br/> 
+                        <Link to="/inspiration/RoadTrips">Places To Visit in Ladakh</Link><br/> 
+                        <Link to="/inspiration/HoneymoonPackages">Honeymoon Destinations In India</Link><br/>
+                       
                         <hr></hr>
                     </div>
                 </div>

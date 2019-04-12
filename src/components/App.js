@@ -7,7 +7,7 @@ import history from '../history';
 import Packages from './Packages';
 import Flights from './Flights';
 import Forum from './Forum';
-import Holidays from './Holidays';
+
 import Hotels from './Hotels';
 import Inspirations from './Inspirations';
 import Trips from './Trips'
@@ -35,6 +35,19 @@ import FriendsTrips from './Categories/FriendsTrips';
 import HoneymoonSpecial from './Categories/HoneymoonSpecial';
 import BudgetGetaways from './Categories/BudgetGetaways';
 import ThrillingTreks from './Categories/ThrillingTreks';
+import GoaBeach from './Beaches/GoaBeach';
+import PondicherryBeach from './Beaches/PondicherryBeach';
+import AndamanBeach from './Beaches/AndamanBeach';
+import CoastalTreks from './Beaches/CoastalTreks';
+import Flyboarding from './Beaches/Flyboarding';
+import KerelaBeach from './Beaches/KerelaBeach';
+import MaharastraBeach from './Beaches/MaharastraBeach';
+import ScubaBeach from './Beaches/ScubaBeach';
+import TamilBeach from './Beaches/TamilBeach';
+import ContactUs from './Footer/ContactUs';
+import Terms from './Footer/Terms';
+import Privacy from './Footer/Privacy';
+import Guideline from './Footer/Guideline';
 
 class App extends React.Component{
     render(){
@@ -49,7 +62,6 @@ class App extends React.Component{
                     <Route path='/user/signup' exact component={SingUp} />
                     <Route path='/flights' exact component={Flights} />
                     <Route path='/forum' exact component={Forum} />
-                    <Route path='/holidays' exact component={Holidays} />
                     <Route path='/hotels' exact component={Hotels} />
                     <Route path='/inspirations' exact component={Inspirations} />
                     <Route path='/trips' exact component={Trips} />
@@ -77,6 +89,27 @@ class App extends React.Component{
                     <Route path='/categories/honeymoon' exact component={HoneymoonSpecial} />
                     <Route path='/categories/budget' exact component={BudgetGetaways} />
                     <Route path='/categories/thrillingtreks' exact component={ThrillingTreks} />
+                    <Route path='/beaches/GoaBeach' exact component={GoaBeach} />
+                    <Route path='/beaches/PondicherryBeach' exact component={PondicherryBeach} />
+                    <Route path='/beaches/AndamanBeach' exact component={AndamanBeach} />
+                    <Route path='/beaches/CoastalTreks' exact component={CoastalTreks} />
+                    <Route path='/beaches/Flyboarding' exact component={Flyboarding} />
+                    <Route path='/beaches/KerelaBeach' exact component={KerelaBeach} />
+                    <Route path='/beaches/MaharastraBeach' exact component={MaharastraBeach} />
+                    <Route path='/beaches/ScubaBeach' exact component={ScubaBeach} />
+                    <Route path='/beaches/TamilBeach' exact component={TamilBeach} />
+                    <Route path='/contact us' exact component={ContactUs} />
+                    <Route path='/terms & conditions' exact component={Terms} />
+                    <Route path='/privacy policy' exact component={Privacy} />
+                    <Route path='/guidelines' exact component={Guideline} />
+
+
+
+
+
+                   
+
+
                    
 
 

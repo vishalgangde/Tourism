@@ -63,7 +63,7 @@ class Beaches extends React.Component{
                 </p>
                            <div className="ui row">
                              <div className="ui column" > 
-                             <Link to="/beach">
+                             <Link to="/beaches/GoaBeach">
                              <Img src={require("../images/goa-beaches.png")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -78,7 +78,7 @@ class Beaches extends React.Component{
                              </div>
                         
                 <div className="ui column" >
-                        <Link to="/beach">
+                        <Link to="/beaches/PondicherryBeach">
                         <Img src={require("../images/beach-pondicherry.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -97,7 +97,7 @@ class Beaches extends React.Component{
 
 
                 <div className="ui column" >
-                        <Link to="/Gujrat Royality">
+                        <Link to="/beaches/AndamanBeach">
                         <Img src={require("../images/beach-andaman.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -117,7 +117,7 @@ class Beaches extends React.Component{
 
                 <div className="ui row">
                 <div className="ui column" > 
-                             <Link to="/beach">
+                             <Link to="/beaches/KerelaBeach">
                              <Img src={require("../images/beach-kerela.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -132,7 +132,7 @@ class Beaches extends React.Component{
                              </div>
                 
                              <div className="ui column" > 
-                             <Link to="/beach">
+                             <Link to="/beaches/MaharastraBeach">
                              <Img src={require("../images/beach-maharastra.png")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -147,7 +147,7 @@ class Beaches extends React.Component{
                              </div>
 
                              <div className="ui column" > 
-                             <Link to="/beach">
+                             <Link to="/beaches/TamilBeach">
                              <Img src={require("../images/beach-tamil.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -165,7 +165,7 @@ class Beaches extends React.Component{
                 <h1>For Adventure Lovers</h1>
                     <div className="ui row">
                         <div className="ui column">
-                            <Link to="/beach">
+                            <Link to="/beaches/ScubaBeach">
                             <Img src={require("../images/beach-adventure.png")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -180,7 +180,7 @@ class Beaches extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/beach">
+                            <Link to="/beaches/CoastalTreks">
                             <Img src={require("../images/beach-coastal.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -195,7 +195,7 @@ class Beaches extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/beach">
+                            <Link to="/beaches/Flyboarding">
                             <Img src={require("../images/beach-flord.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />

@@ -1,10 +1,11 @@
 import React from 'react';
 import _ from 'lodash';
 import { Field,reduxForm} from 'redux-form';
-import { RegisterUserAction } from '../actions/types';
+import { RegisterUserAction } from '../actions/index';
 import '../components/index.css';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import Axios from 'axios';
 
 
 class SignUp extends React.Component{
@@ -33,59 +34,73 @@ class SignUp extends React.Component{
         
     }
 
+    renderInputMobNo = ({input,meta,label}) => {
+        const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
+
+        return (
+            <div className={className}>
+                <label><h4>{label}</h4></label>
+                <input {...input} type="number" autoComplete="on" />
+                {this.renderError(meta)}
+            </div>
+        );
+
+    }
+
+    renderInputPass = ({input,meta,label}) => {
+        const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
+
+        return (
+            <div className={className}>
+                <label><h4>{label}</h4></label>
+                <input {...input} type="password" autoComplete="on" />
+                {this.renderError(meta)}
+            </div>
+        );
+
+    }
+
+  
+
     onSubmit = (formValues) => {
-        let role = {
-            role :'author'
-          }
-          formValues = _.assign(formValues,role);
-          //console.log(role);
-          formValues = _.omit(formValues, 'cfm_password');
-          console.log(formValues);
-          this.props.RegisterUserAction(formValues);
-        
+        console.log(formValues);
+        Axios.post('http://localhost:3001/Signup' , formValues).then(res => {
+            console.log(res , "response")
+        }).catch(err => {
+            console.log(err , "error")
+        })
+        // this.props.onSubmit(formValues);
     }
 
     render(){
-        //console.log(this.props);
-       // if(!localStorage.getItem("authToken")){
         return(
-            <div className="form-popup" id="myForm">
-             <form action="/action_page.php" className="form-container"></form>
-                <h1 style={{color:"green"}}>Sign Up</h1 >
-                <br></br>
-                    <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
-                    <label for="firstname"><b>First Name</b></label>
-                    <input type="text" placeholder="Enter First Name" name="first name" required />
+           
+               <div>
+                   
+                       <h1 className="input-field0" style={{color:"grey",fontSize:"18px"}}>Provide your details below to get a custom quote.</h1>
 
-                    <label for="lastname"><b>Last Name</b></label>
-                    <input type="text" placeholder="Enter Last Name" name="Last name" required />
 
-                    <label for="username"><b>User Name</b></label>
-                    <input type="text" placeholder="Enter User Name" name="user name" required />
+                   <form
+                       onSubmit={this.props.handleSubmit(this.onSubmit)}
+                       className="ui form error"
+                   >
 
-                    <label for="email"><b>Email</b></label>
-                    <input type="email" placeholder="Enter Email Id" name="email" required />
-
-                    <label for="mobileno"><b>Mobile No.</b></label>
-                    <input type="number" placeholder="Mobile No." name="mobile no" required />
-
-                    <label for="password"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="password" required />
-
-                    <label for="cfm_password"><b>Confirm Password</b></label>
-                    <input type="password" placeholder="Confirm Password" name="cfm_password" required />
-                    </form>
-                    <br></br>
-                       
-            <button type="submit" className="btn" style={{backgroundColor:"green"}}>Submit</button>
-            <Link to="/user/signin" type="btn cancel" class="btn cancel" style={{backgroundColor:"red"}} onclick="closeForm()">Cancel</Link>
-        
-                       
-            </div>
-            
-        );
-    }
-
+                       <Field  name="firstname" component={this.renderInput} label="First Name" />
+                       <Field  name="lastname" component={this.renderInput} label="Last Name" />
+                       <Field  name="email" component={this.renderInput} label="Email" />
+                       <Field  name="contactno" component={this. renderInputMobNo} label="Contact No." />
+                       <Field  name="password" component={this.renderInputPass} label="Password" />
+                       <Field  name="cfm_password" component={this.renderInputPass} label="Confirm Password" />
+                       <button className="input-field2" type="submit" className="btn" style={{backgroundColor:"orange"}}>Sign Up</button>
+                       <Link to="/"><button className="input-field2" type="submit" className="btn" style={{backgroundColor:"blue"}}>Close</button></Link>
+                   </form>
+                 
+               
+               </div>
+           
+       
+           );
+   }
        
 }
 
@@ -94,31 +109,31 @@ const validate = (formValues) => {
     const errors = {};
     //const pass = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
 
-    if(!formValues.first_name){
-        errors.first_name = 'Please Enter First Name';
+    if(!formValues.firstname){
+        errors.firstname = 'Please Enter First Name';
     }
-    else if((formValues.first_name.length < 5) || (formValues.first_name.length > 16))
+    else if((formValues.firstname.length < 4) || (formValues.firstname.length > 16))
     {
-        errors.first_name =("First Name must be 5 to 15 characters");
+        errors.firstname =("First Name must be 5 to 15 characters");
     }
     
 
     
 
-    if(!formValues.last_name){
-        errors.last_name = 'Please Enter Last Name ';
+    if(!formValues.lastname){
+        errors.lastname = ('Please Enter Last Name ');
     }
-    else if((formValues.last_name.length < 5) || (formValues.last_name.length > 16))
+    else if((formValues.lastname.length < 5) || (formValues.lastname.length > 16))
     {
-        errors.last_name =("Last Name must be 5 to 15 characters");
+        errors.lastname =("Last Name must be 5 to 15 characters");
     }
     
     
-    if(!formValues.username){
-        errors.username = 'Please Enter Username';
+    if(!formValues.contactno){
+        errors.contactno = 'Please enter vaild number';
     }
-    else if((formValues.username.length < 5) || (formValues.username.length > 16)){
-        errors.username = ("Username must be be 5 to 15 characters")
+    else if((formValues.contactno.length < 5) || (formValues.contactno.length > 10)){
+        errors.contactno = ("Contact No must be 10 digits")
         /*/^[A-Za-z]\w{7,15}$/
         (?=.*\d)(?=.*[a-z])(?=.*[A-Z])*/
     }

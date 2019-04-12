@@ -4,12 +4,34 @@ import { Link } from 'react-router-dom';
 import '../../components/index.css';
 import Register from '../Register'
 import Footer from '../Footer';
+import { connect } from 'react-redux';
+import { RegisterUserAction  } from '../../actions/index';
+
+
 
 class Andaman extends React.Component{
+
+  constructor(props) {
+    super(props);
+
+    this.handler = this.handler.bind(this);
+  }
+
+  handler(e){
+    this.props.filterUser(e.target.value);
+  }
+
+    onSubmit = (formValues) => {
+        this.props.RegisterUserAction(formValues);
+        console.log(formValues);
+    }; 
+
     render(){
         return(
+
             
             <div>
+              
                 <div className="container">
                 <div class="row">
                     <div class="col-8">
@@ -18,7 +40,7 @@ class Andaman extends React.Component{
                         />
                     </div>
                     <div class="col-4">
-                        <Register />     
+                        <Register onSubmit={this.onSubmit} />     
                      </div>
                 </div>
                 
@@ -118,5 +140,5 @@ class Andaman extends React.Component{
     }
 } 
 
-export default Andaman;
+export default connect (null,{RegisterUserAction})(Andaman);
 
