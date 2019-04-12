@@ -279,7 +279,8 @@ ul li a:hover{
 }
 
 .title1 {
-  padding: 18px;
+  padding: 15px;
+  padding-left: 18px;
   text-align: absolute;
   color: #A0522D	;
   font-size: 30px
@@ -287,9 +288,16 @@ ul li a:hover{
 
 .paragraph{
  
-  padding: 10px;
+  padding-left: 25px;
   text-align: absolute;
   font-size: 17px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.adjust {
+  padding : 0px;
+  font-size: 16px;
+  
 }
 
 .title2 {

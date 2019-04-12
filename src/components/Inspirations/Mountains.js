@@ -26,19 +26,19 @@ class Mountains extends React.Component{
                     
                     
                    
-                    <div className="dropdown">
-                            <button className="dropbtn">Inspirations</button>
-                             <div className="dropdown-content">
-                               
-                               
-                                <Link to="/inspiration/beaches" className="item">Beaches</Link>
-                               <Link to="/inspiration/Mountains" className="item">Mountains</Link>
-                                <Link to="/inspiration/Heritage" className="item">Heritage</Link>
-                                <Link to="/inspiration/HoneymoonPackages" className="item">Honeymoon Packages</Link>
-                                <Link to="/inspiration/WildlifeTourism" className="item">Wildlife Tourism</Link>
-                                <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
-                            </div> 
-                            </div>
+                            <ul>
+                                 <div className="dropdown">
+                                    <li className="adjust">Inspirations</li>
+                                        <div className="dropdown-content">
+                                            <Link to="/inspiration/beaches" className="item">Beaches</Link>
+                                            <Link to="/inspiration/Mountains" className="item">Mountains</Link>
+                                            <Link to="/inspiration/Heritage" className="item">Heritage</Link>
+                                            <Link to="/inspiration/HoneymoonPackages" className="item">Honeymoon Packages</Link>
+                                            <Link to="/inspiration/WildlifeTourism" className="item">Wildlife Tourism</Link>
+                                            <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
+                                        </div> 
+                                 </div>
+                            </ul>
                     </header>
 
                     <div>

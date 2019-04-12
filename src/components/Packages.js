@@ -62,7 +62,7 @@ class Packages extends React.Component{
                                 or a pilgrimage tour with family, get to browse according to your choice.
                                 VisTravels also understands the needs of a budget traveller, which is why low-budget holidays and pocket-friendly escapades are always on.
                                 Enjoying holidays in India was never as easy as it is now at VisTravels. Happy Vacations!
-                            </p>
+                            </p><br></br><br></br>
                         </div>  
                         <div className="ui container">
                             <h1>Domestic Holidays- Under ₹ 30,000</h1>
