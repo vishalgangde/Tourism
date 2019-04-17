@@ -15,7 +15,7 @@ class HoneymoonPackages extends React.Component{
                             <Img src={require("../images/logo1.png")} alt="a"/>
                         </div>
                             <ul>
-                                <li><Link to="/forum" className="item">Forum</Link></li>
+                               
                                 <li><Link to="/hotels" className="item">Hotels</Link></li>
                                 <li><Link to="/holidays" className="item">Holidays</Link></li>
                                 <li><Link to="/flights" className="item">Flights</Link></li>
@@ -39,6 +39,17 @@ class HoneymoonPackages extends React.Component{
                                             <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
                                         </div> 
                                  </div>
+
+                                 <div className="dropdown">
+                                    <li>Choose Category</li>
+                                    <div className="dropdown-content">
+                                        <Link to="/categories/family">Family Holidays</Link>
+                                        <Link to="/categories/friends">Friends Road Trips</Link>
+                                        <Link to="/categories/honeymoon">Honeymoon Special</Link>
+                                        <Link to="/categories/budget">Budget Getaways</Link>
+                                        <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
+                                    </div>
+                                 </div>
                             </ul>
                     </header>
 
@@ -58,7 +69,7 @@ class HoneymoonPackages extends React.Component{
                     </p>
                            <div className="ui row">
                              <div className="ui column" > 
-                             <Link to="/honeymoonpackages">
+                             <Link to="/honeymoonpackages/kerela">
                              <Img src={require("../images/kerela.jpg")} 
                                  style={{width:"90%",height:"44vh"}}
                                 />
@@ -76,7 +87,7 @@ class HoneymoonPackages extends React.Component{
                              </div>
                         
                 <div className="ui column" >
-                        <Link to="/heritage">
+                        <Link to="/honeymoonpackages/kashmir">
                         <Img src={require("../images/kashmir.jpeg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -95,7 +106,7 @@ class HoneymoonPackages extends React.Component{
 
                 
                 <div className="ui column" >
-                        <Link to="/heritage">
+                        <Link to="/honeymoonpackages/darjeeling">
                         <Img src={require("../images/northeast1.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -116,7 +127,7 @@ class HoneymoonPackages extends React.Component{
                 <h1>Domestic Honeymoon Packages Under INR 20,000</h1>
                 <div className="ui row">
                 <div className="ui column" > 
-                             <Link to="/heritage">
+                             <Link to="/honeymoonpackages/manali">
                              <Img src={require("../images/kullu3.jpeg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -131,7 +142,7 @@ class HoneymoonPackages extends React.Component{
                              </div>
                 
                              <div className="ui column" > 
-                             <Link to="/heritage">
+                             <Link to="/honeymoonpackages/goa">
                              <Img src={require("../images/goa.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -146,7 +157,7 @@ class HoneymoonPackages extends React.Component{
                              </div>
 
                              <div className="ui column" > 
-                             <Link to="/heritage">
+                             <Link to="/honeymoonpackages/andaman">
                              <Img src={require("../images/andaman.png")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -164,7 +175,7 @@ class HoneymoonPackages extends React.Component{
                 <h1>Ladakh Honeymoon Packages</h1>
                     <div className="ui row">
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/honeymoonpackages/ladakh">
                             <Img src={require("../images/laddak.jpeg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -179,22 +190,22 @@ class HoneymoonPackages extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/heritage">
-                            <Img src={require("../images/laddak3.jpeg")} 
+                            <Link to="/honeymoonpackages/manali">
+                            <Img src={require("../images/mountain-himachal.png")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Leh Nubra Pangong</h4></Link>
-                                <a style={{color:"red"}}>₹ 43,999</a><br></br>
+                               <Link><h4 style={{color:"black"}}>Trip To McLeod Ganj</h4></Link>
+                                <a style={{color:"red"}}>₹ 6,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
                                 </div>
                                 <hr></hr>
-                        </div>
+                        </div>          
 
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/honeymoonpackages/shrinagar">
                             <Img src={require("../images/laddak1.jpeg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -211,23 +222,10 @@ class HoneymoonPackages extends React.Component{
 
                         <h1>Himachal Honeymoon Packages</h1>
                     <div className="ui row">
-                        <div className="ui column">
-                            <Link to="/heritage">
-                            <Img src={require("../images/mountain-himachal.png")} 
-                             style={{width:"90%",height:"44vh"}}
-                            />
-                            </Link>
-                            <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Trip To McLeod Ganj</h4></Link>
-                                <a style={{color:"red"}}>₹ 6,999</a><br></br>
-                                <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
-                            
-                                </div>
-                                <hr></hr>
-                        </div>
+                        
 
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/honeymoonpackages/manali">
                             <Img src={require("../images/mountain-hill1.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -242,7 +240,7 @@ class HoneymoonPackages extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/honeymoonpackages/shrinagar">
                             <Img src={require("../images/mountain-hill.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />

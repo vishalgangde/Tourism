@@ -13,7 +13,7 @@ class GoaBeach extends React.Component{
                 <div className="container">
                 <div class="row">
                     <div class="col-8">
-                        <Img src={require("../images/andaman.png")} 
+                        <Img src={require("../images/goa-beach.jpeg")} 
                             style={{width:"90%",height:"85vh"}}
                         />
                     </div>
@@ -24,7 +24,7 @@ class GoaBeach extends React.Component{
                 
                 
                 </div>
-                   <div class="centered1" style={{border:"2px solid black"}}><b><i>Andaman <br/></i>
+                   <div class="centered2" style={{border:"2px solid black"}}><b><i>Goa Beach<br/></i>
                         <br/>
                         ₹ 30,000 Per Person<br/>
                         6 Days / 5 Nights<br/>

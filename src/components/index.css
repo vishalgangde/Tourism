@@ -5,12 +5,12 @@
 }
 
 .headerr{
-  height: 20vh;
+  height: 30vh;
 }
 
 header{
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX998A4nWFu3lOFwYZTlJqpRea0LjkA_yea-c115zf1Y13sqN5");
-  height: 48vh;
+  height: 38vh;
   background-size: cover;
   background-position: center;
   
@@ -236,13 +236,21 @@ ul li a:hover{
   
 }
 
+
 .dropdown {
   position: relative;
   display: inline-block;
   padding: 2px 10px;
   font-size: 15px;
   color: white;
-  
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px;
+  font-size: 15px;
+  color: white;
 }
 
 
@@ -279,11 +287,11 @@ ul li a:hover{
 }
 
 .title1 {
-  padding: 15px;
-  padding-left: 18px;
+  padding: 10px;
+  padding-left: 21px;
   text-align: absolute;
-  color: #A0522D	;
-  font-size: 30px
+  color: #00BFFF	;
+  font-size: 28px
 }
 
 .paragraph{
@@ -874,4 +882,9 @@ ul li a:hover{
 
   .arange ul li{
     padding-left: 85px;
+  }
+
+  .down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }

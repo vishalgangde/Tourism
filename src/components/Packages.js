@@ -37,7 +37,7 @@ class Packages extends React.Component{
                                         <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
                                     </div>
                                  </div>
-                                    <li><Link to="/forum" className="item">Forum</Link></li>
+                                    
                                     <li><Link to="/hotels" className="item">Hotels</Link></li>
                                     <li><Link to="/flights" className="item">Flights</Link></li>
                                     <li><Link to="/trips" className="item">Trips</Link></li>
@@ -50,7 +50,7 @@ class Packages extends React.Component{
                             
                 </header>
                         <div>
-                            <h3 className="title1">Holidays in India</h3>
+                            <h3 className="title1"><b>Holidays in India</b></h3>
                             <p className="paragraph">
                                 Need help in getting a perfect travel experience in India? 
                                 VisTravels has curated several travel packages covering some

@@ -14,7 +14,7 @@ class Heritage extends React.Component{
                             <Img src={require("../images/logo1.png")} alt="a"/>
                         </div>
                             <ul>
-                                <li><Link to="/forum" className="item">Forum</Link></li>
+                                
                                 <li><Link to="/hotels" className="item">Hotels</Link></li>
                                 <li><Link to="/holidays" className="item">Holidays</Link></li>
                                 <li><Link to="/flights" className="item">Flights</Link></li>
@@ -38,6 +38,17 @@ class Heritage extends React.Component{
                                             <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
                                         </div> 
                                  </div>
+
+                                 <div className="dropdown">
+                                    <li>Choose Category</li>
+                                    <div className="dropdown-content">
+                                        <Link to="/categories/family">Family Holidays</Link>
+                                        <Link to="/categories/friends">Friends Road Trips</Link>
+                                        <Link to="/categories/honeymoon">Honeymoon Special</Link>
+                                        <Link to="/categories/budget">Budget Getaways</Link>
+                                        <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
+                                    </div>
+                                 </div>
                             </ul>
                     </header>
 
@@ -57,7 +68,7 @@ class Heritage extends React.Component{
                 <h1>Heritage Destinations In India</h1>
                            <div className="ui row">
                              <div className="ui column" > 
-                             <Link to="/heritage">
+                             <Link to="/heritage/rajasthan">
                              <Img src={require("../images/heritage-rajasthan.webp")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -72,7 +83,7 @@ class Heritage extends React.Component{
                              </div>
                         
                 <div className="ui column" >
-                        <Link to="/heritage">
+                        <Link to="/heritage/orissa">
                         <Img src={require("../images/heritage-orissa.png")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -91,7 +102,7 @@ class Heritage extends React.Component{
 
 
                 <div className="ui column" >
-                        <Link to="/heritage">
+                        <Link to="/heritage/tamil">
                         <Img src={require("../images/heritage-tamil.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -111,7 +122,7 @@ class Heritage extends React.Component{
                 <h1>Heritage Destinations</h1>
                 <div className="ui row">
                 <div className="ui column" > 
-                             <Link to="/heritage">
+                             <Link to="/heritage/madhya">
                              <Img src={require("../images/heritage-madhya.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -126,7 +137,7 @@ class Heritage extends React.Component{
                              </div>
                 
                              <div className="ui column" > 
-                             <Link to="/heritage">
+                             <Link to="/heritage/delhi">
                              <Img src={require("../images/heritage-delhi.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -141,7 +152,7 @@ class Heritage extends React.Component{
                              </div>
 
                              <div className="ui column" > 
-                             <Link to="/heritage">
+                             <Link to="/heritage/maharastra">
                              <Img src={require("../images/heritage-maharastra.JPG")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -159,7 +170,7 @@ class Heritage extends React.Component{
                 <h1>Glorious Forts Of India</h1>
                     <div className="ui row">
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/heritage/gwaliorfort">
                             <Img src={require("../images/heritage-gwalior.jpeg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -174,7 +185,7 @@ class Heritage extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/heritage/golcondafort">
                             <Img src={require("../images/heritage-hydrabaad.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -189,7 +200,7 @@ class Heritage extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/heritage/chittorgarhfort">
                             <Img src={require("../images/heritage-fort.png")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -207,7 +218,7 @@ class Heritage extends React.Component{
                         <h1>Mughal Architecture In India</h1>
                     <div className="ui row">
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/heritage/tajmahal">
                             <Img src={require("../images/tajmahal.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -222,7 +233,7 @@ class Heritage extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/heritage/fatehpur">
                             <Img src={require("../images/bibi ka makbara1.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -237,7 +248,7 @@ class Heritage extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/heritage">
+                            <Link to="/heritage/humayun">
                             <Img src={require("../images/humayu.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />

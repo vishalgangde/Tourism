@@ -14,7 +14,7 @@ class Beaches extends React.Component{
                             <Img src={require("../images/logo1.png")} alt="a"/>
                         </div>
                             <ul>
-                                <li><Link to="/forum" className="item">Forum</Link></li>
+                                
                                 <li><Link to="/hotels" className="item">Hotels</Link></li>
                                 <li><Link to="/holidays" className="item">Holidays</Link></li>
                                 <li><Link to="/flights" className="item">Flights</Link></li>
@@ -38,6 +38,17 @@ class Beaches extends React.Component{
                                             <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
                                         </div> 
                                  </div>
+
+                                 <div className="dropdown">
+                                    <li>Choose Category</li>
+                                    <div className="dropdown-content">
+                                        <Link to="/categories/family">Family Holidays</Link>
+                                        <Link to="/categories/friends">Friends Road Trips</Link>
+                                        <Link to="/categories/honeymoon">Honeymoon Special</Link>
+                                        <Link to="/categories/budget">Budget Getaways</Link>
+                                        <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
+                                    </div>
+                                 </div>
                             </ul>
                     </header>
 
@@ -46,7 +57,7 @@ class Beaches extends React.Component{
                         
                             <p className="paragraph" style={{padding:"20px"}}>If you are bitten by the travel bug, then nothing
                                 quite beats the satisfaction of hitting the tarmac to a destination far and beautiful. For travellers
-                                who like staying on the road more than home, Tripoto brings a handpicked section of road trips in and 
+                                who like staying on the road more than home, VisTours brings a handpicked section of road trips in and 
                                 around India. From ambitious 10,000km sojourns to quick three hour getaways, here is all the inspiration 
                                 and information you need to plan your next road trip.
                             </p>
@@ -57,7 +68,7 @@ class Beaches extends React.Component{
                 <h1>Best Road Trips in India</h1>
                            <div className="ui row">
                              <div className="ui column" > 
-                             <Link to="/roadtrip">
+                             <Link to="/RoadTrips/SoutherIndia">
                              <Img src={require("../images/south-road.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -69,7 +80,7 @@ class Beaches extends React.Component{
                              </div>
                         
                 <div className="ui column" >
-                        <Link to="/roadtrip">
+                        <Link to="/RoadTrips/RoadTripSpitiValley">
                         <Img src={require("../images/Spitivalley.jpg&h=380&w=650&zc=1")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -82,7 +93,7 @@ class Beaches extends React.Component{
 
 
                 <div className="ui column" >
-                        <Link to="/roadtrip">
+                        <Link to="/RoadTrips/RoadTripsRajasthan">
                         <Img src={require("../images/rajasthan-road.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -98,7 +109,7 @@ class Beaches extends React.Component{
                 <h1>Road Trips From Bangalore</h1>
                 <div className="ui row">
                 <div className="ui column" > 
-                             <Link to="/roadtrip">
+                             <Link to="/RoadTrips/RoadTripBanglore">
                              <Img src={require("../images/banglore-road.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -110,7 +121,7 @@ class Beaches extends React.Component{
                              </div>
                 
                              <div className="ui column" > 
-                             <Link to="/roadtrip">
+                             <Link to="/RoadTrips/ThrillRoadTrips">
                              <Img src={require("../images/thrill-road1.jpg_1489478640")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -123,7 +134,7 @@ class Beaches extends React.Component{
                              </div>
 
                              <div className="ui column" > 
-                             <Link to="/roadtrip">
+                             <Link to="/RoadTrips/OotyRoadTrips">
                              <Img src={require("../images/ooty-road.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />

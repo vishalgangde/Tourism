@@ -14,7 +14,7 @@ class Beaches extends React.Component{
                             <Img src={require("../images/logo1.png")} alt="a"/>
                         </div>
                             <ul>
-                                <li><Link to="/forum" className="item">Forum</Link></li>
+                                
                                 <li><Link to="/hotels" className="item">Hotels</Link></li>
                                 <li><Link to="/holidays" className="item">Holidays</Link></li>
                                 <li><Link to="/flights" className="item">Flights</Link></li>
@@ -37,6 +37,17 @@ class Beaches extends React.Component{
                                             <Link to="/inspiration/WildlifeTourism" className="item">Wildlife Tourism</Link>
                                             <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
                                         </div> 
+                                 </div>
+                                 
+                                 <div className="dropdown">
+                                    <li>Choose Category</li>
+                                    <div className="dropdown-content">
+                                        <Link to="/categories/family">Family Holidays</Link>
+                                        <Link to="/categories/friends">Friends Road Trips</Link>
+                                        <Link to="/categories/honeymoon">Honeymoon Special</Link>
+                                        <Link to="/categories/budget">Budget Getaways</Link>
+                                        <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
+                                    </div>
                                  </div>
                             </ul>
                     </header>

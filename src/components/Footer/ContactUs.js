@@ -13,7 +13,19 @@ class ContactUs extends React.Component{
                         <div className="ui logo">
                             <Img src={require("../images/logo1.png")} alt="a"/>
                         </div>
-                            <ul>    
+                            <ul>
+                            <div className="dropdown">
+                                    <li className="adjust">Inspirations</li>
+                                        <div className="dropdown-content">
+                                            <Link to="/inspiration/beaches" className="item">Beaches</Link>
+                                            <Link to="/inspiration/Mountains" className="item">Mountains</Link>
+                                            <Link to="/inspiration/Heritage" className="item">Heritage</Link>
+                                            <Link to="/inspiration/HoneymoonPackages" className="item">Honeymoon Packages</Link>
+                                            <Link to="/inspiration/WildlifeTourism" className="item">Wildlife Tourism</Link>
+                                            <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
+                                        </div> 
+                                 </div>
+
                                 <li><Link to="/forum" className="item">Forum</Link></li>
                                 <li><Link to="/hotels" className="item">Book Hotels</Link></li>
                                 <li><Link to="/holidays" className="item">Book Holidays</Link></li>
@@ -26,16 +38,11 @@ class ContactUs extends React.Component{
                     
                    
                     <div className="dropdown">
-                            <button className="dropbtn">Inspirations</button>
+                            <button className="dropbtn"></button>
                              <div className="dropdown-content">
                                
                                
-                                <Link to="/inspiration/beaches" className="item">Beaches</Link>
-                               <Link to="/inspiration/Mountains" className="item">Mountains</Link>
-                                <Link to="/inspiration/Heritage" className="item">Heritage</Link>
-                                <Link to="/inspiration/HoneymoonPackages" className="item">Honeymoon Packages</Link>
-                                <Link to="/inspiration/WildlifeTourism" className="item">Wildlife Tourism</Link>
-                                <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
+                               
                             </div> 
                             </div>
 

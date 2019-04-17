@@ -110,7 +110,7 @@ const validate = (formValues) => {
     //const pass = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
 
     if(!formValues.firstname){
-        errors.firstname = 'Please Enter First Name';
+        errors.firstname = '*Field is mandatory';
     }
     else if((formValues.firstname.length < 4) || (formValues.firstname.length > 16))
     {
@@ -121,7 +121,7 @@ const validate = (formValues) => {
     
 
     if(!formValues.lastname){
-        errors.lastname = ('Please Enter Last Name ');
+        errors.lastname = '*Field is mandatory';
     }
     else if((formValues.lastname.length < 5) || (formValues.lastname.length > 16))
     {
@@ -130,7 +130,7 @@ const validate = (formValues) => {
     
     
     if(!formValues.contactno){
-        errors.contactno = 'Please enter vaild number';
+        errors.contactno = '*Field is mandatory';
     }
     else if((formValues.contactno.length < 5) || (formValues.contactno.length > 10)){
         errors.contactno = ("Contact No must be 10 digits")
@@ -139,18 +139,18 @@ const validate = (formValues) => {
     }
     
     if(!formValues.email){
-        errors.email = 'Please Enter Email Id';
+        errors.email = '*Field is mandatory';
     }
     
     if (!formValues.password) {
-        errors.password = 'Please Enter Valid Password';
+        errors.password = '*Field is mandatory';
       }
     else if(formValues.password.length < 8) {
     errors.password = 'At least 8 or more one letters';
     }
      
      if (!formValues.cfm_password ) {
-        errors.cfm_password = 'Please Enter Confirm Password' ;
+        errors.cfm_password = '*Field is mandatory' ;
       } else if (formValues.cfm_password !== formValues.password) {
         errors.cfm_password = 'Confirm password is not matched with password' ;
       }

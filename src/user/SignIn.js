@@ -99,14 +99,14 @@ class SignIn extends React.Component {
     const errors = {};
 
         if (!formValues.email) {
-            errors.email = 'must enter valid email';
+            errors.email = '*Field is mandatory';
         }
         else if (formValues.email.length >= 25) {
             errors.email = 'must enter valid email'
         }
 
         if (!formValues.password) {
-            errors.password = 'must enter valid password';
+            errors.password = '*Field is mandatory';
         }
         else if(formValues.password.length <= 8){
             errors.password = 'must contain at least 8 or more characters'

@@ -38,6 +38,20 @@ class Register extends React.Component {
 
     }
 
+    renderInputMail = ({ input, email, label, meta }) => {
+        const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
+
+        return (
+            <div className={className}>
+                <label>{label}</label>
+                <input {...input} type={email} autoComplete="on" />
+                {this.renderError(meta)}
+            </div>
+        );
+
+    }
+
+
     renderInputDate = ({input,meta,label}) => {
         const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
 
@@ -128,7 +142,7 @@ class Register extends React.Component {
                     >
 
                         <Field style={{fontSize:"15px",color:"#249BDB"}} name="fullname" component={this.renderInput} label="Full Name" />
-                        <Field style={{fontSize:"15px",color:"#249BDB"}} name="email" component={this.renderInput} label="Email" />
+                        <Field style={{fontSize:"15px",color:"#249BDB"}} name="email" component={this.renderInputMail} label="Email" />
                         <Field style={{fontSize:"15px",color:"#249BDB"}} name="mobileno" component={this.renderInput} label="Mobile No." />
                         <Field style={{fontSize:"15px",color:"#249BDB"}} name="depturecity" component={this.renderInputDropDown} label="Depture City" />
                         <Field style={{fontSize:"15px",color:"#249BDB"}} name="depturedate" component={this.renderInputDate} label="Depture Date" />
@@ -152,25 +166,40 @@ class Register extends React.Component {
     const validate = (formValues) => {
     const errors = {};
 
-        if (!formValues.username) {
-            errors.username = 'must enter valid user name';
+        if (!formValues.fullname) {
+            errors.fullname = '*Field is mandatory';
         }
-        else if (formValues.username.length >= 15) {
-            errors.username = 'must be 15 characters or less'
+        else if (formValues.fullname.length >= 25) {
+            errors.fullname = '*Name is too long'
         }
 
-        if (!formValues.password) {
-            errors.password = 'must enter valid password';
+        if (!formValues.email) {
+            errors.email = '*Field is mandatory';
         }
-        else if(formValues.password.length <= 8){
-            errors.password = 'must contain at least 8 or more characters'
+        else if (formValues.email.length >= 35) {
+            errors.email = '*email is too long'
         }
-        if (!formValues.cfm_password) {
-            errors.cfm_password = 'must enter confirm password';
+
+        if (!formValues.mobileno) {
+            errors.mobileno = '*Field is mandatory';
+        }
+        else if ((formValues.mobileno.length <= 9)||((formValues.mobileno.length >= 11))) {
+            errors.mobileno = '*Phone number have must 10 digits '
+        }
+
+        if (!formValues.depturecity) {
+            errors.depturecity = '*Field is mandatory';
+        }
+       
+        if (!formValues.depturedate) {
+            errors.depturedate = '*Field is mandatory';
+        }
+       
+
+        if (!formValues.numberofpeople) {
+            errors.numberofpeople = '*Field is mandatory';
         } 
-        else if (formValues.cfm_password !== formValues.password) {
-            errors.cfm_password = 'Password mismatched';
-        }
+       
         return errors;
 
     }
@@ -184,80 +213,4 @@ class Register extends React.Component {
 
    
 
-    /*
-    import React from 'react';
-import { Field, reduxForm } from 'redux-form';
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-
-class StreamForm extends React.Component {
-    //if user leave input text blank it show an error
-    renderError({ error, touched }) {
-        if (error && touched) {
-            return (
-                <div className="ui error message">
-                    <div className="header">{error}</div>
-                </div>
-            );
-        }
-    }
-    //helper function for input type and use of destructuring
-    renderInput = ({ input, label, meta }) => {
-        console.log(meta);
-        //if user leave the input field empty than it will show an error msg
-        const className = `field ${meta.error && meta.touched ? 'error' : ''}`;
-        return (
-            <div className={className}>
-                <label>{label}</label>
-                <input {...input} autoComplete="off" />
-                {this.renderError(meta)}
-            </div>
-        );
-        
-    }
-
-    //for submit form creating helper method and redux prop(handleSubmit)
-    onSubmit = (formValue) => {
-        this.props.onSubmit(formValue);
-    }
-
-    render() {
-        //console.log(this.props);
-        //title and description connects with the validate function to show an error msg. 
-        return (
-
-            <form
-                onSubmit={this.props.handleSubmit(this.onSubmit)}
-                className="ui form error"
-            >
-
-                <Field name="title" component={this.renderInput} label="Enter Title" />
-                <Field name="description" component={this.renderInput} label="Enter Description" />
-                <button className="ui button primary">Submit</button>
-            </form>
-        );
-    }
-
-}
-
-//validation of form, if user inputs invalid title or description it will show an error msg 
-
-const validate = formValue => {
-    const error = {};
-
-    if (!formValue.title) {
-        error.title = 'You must enter a title';
-    }
-    if (!formValue.description) {
-        error.description = 'You must enter a description';
-    }
-    return error;
-};
-//using connect component , we can send the data in to the db.json
-export default reduxForm({
-    form: 'streamForm',
-    validate
-})(StreamForm);
-
-
-
-    */
+    

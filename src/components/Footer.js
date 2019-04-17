@@ -26,7 +26,7 @@ class Footer extends React.Component{
                         <Link to="/weekend getaways">Weekend Getaways</Link><br/> 
                         <Link to="/places to visit">Places to Visit</Link><br/> 
                         <Link to="/Attractions">Attractions</Link> 
-                        <hr></hr>
+                      
                     </div> 
                 </div>
 
@@ -38,7 +38,7 @@ class Footer extends React.Component{
                         <Link to="/privacy policy">Privacy Policy</Link><br/> 
                         <Link to="/terms & conditions">Terms & Conditions</Link><br/> 
                         <Link to="/contact us">Contact Us</Link><br/> 
-                        <hr></hr>
+                       
                     </div>
                     
                 </div>
@@ -55,11 +55,12 @@ class Footer extends React.Component{
                         <Link to="/inspiration/RoadTrips">Places To Visit in Ladakh</Link><br/> 
                         <Link to="/inspiration/HoneymoonPackages">Honeymoon Destinations In India</Link><br/>
                        
-                        <hr></hr>
+                      
                     </div>
                 </div>
-            
+                <hr></hr><hr></hr><hr></hr>
             </div>
+            
                 <div className="grid-container" style={{paddingLeft:"25px"}}>
                    <h2 className="footer_size1">© All rights reserved.</h2>
                </div>

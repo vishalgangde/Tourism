@@ -61,7 +61,7 @@ class Guideline extends React.Component{
                 </header>
                 <div className="terms">
                     <h1>VisTours</h1>
-                    <p className="p">WEBSITE ACCEPTABLE USE POLICY</p><br></br>
+                    <p className="p" style={{paddingRight:"35px"}}>WEBSITE ACCEPTABLE USE POLICY</p><br></br>
                     <br></br>
                     <p>
                         This acceptable use policy (“Use Policy”)is a part of and incorporated within and to be read with the Terms of Website Use (“Terms”) . 

@@ -61,7 +61,7 @@ class Privacy extends React.Component{
                 </header>
                 <div className="terms">
                     <h1>VisTours</h1>
-                    <p className="p">Privacy Policy (Version 3.0, Effective date: April 1, 2019)</p><br></br>
+                    <p className="p" style={{paddingLeft:"45px"}}>Privacy Policy (Version 3.0, Effective date: April 1, 2019)</p><br></br>
                     <br></br>
                     <p>
                         We recognize that your privacy is very important and take it seriously. This Privacy Policy (“Privacy Policy”) describes the Company's policies

@@ -14,7 +14,7 @@ class Mountains extends React.Component{
                             <Img src={require("../images/logo1.png")} alt="a"/>
                         </div>
                             <ul>
-                                <li><Link to="/forum" className="item">Forum</Link></li>
+                               
                                 <li><Link to="/hotels" className="item">Hotels</Link></li>
                                 <li><Link to="/holidays" className="item">Holidays</Link></li>
                                 <li><Link to="/flights" className="item">Flights</Link></li>
@@ -38,6 +38,17 @@ class Mountains extends React.Component{
                                             <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
                                         </div> 
                                  </div>
+
+                                 <div className="dropdown">
+                                    <li>Choose Category</li>
+                                    <div className="dropdown-content">
+                                        <Link to="/categories/family">Family Holidays</Link>
+                                        <Link to="/categories/friends">Friends Road Trips</Link>
+                                        <Link to="/categories/honeymoon">Honeymoon Special</Link>
+                                        <Link to="/categories/budget">Budget Getaways</Link>
+                                        <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
+                                    </div>
+                                 </div>
                             </ul>
                     </header>
 
@@ -54,7 +65,7 @@ class Mountains extends React.Component{
                 <h1>Best Mountain Destinations In India</h1>
                            <div className="ui row">
                              <div className="ui column" > 
-                             <Link to="/mountains">
+                             <Link to="/mountains/sikkim">
                              <Img src={require("../images/mountain-hill.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -69,7 +80,7 @@ class Mountains extends React.Component{
                              </div>
                         
                 <div className="ui column" >
-                        <Link to="/mountains">
+                        <Link to="/mountains/himachal">
                         <Img src={require("../images/mountain-himachal.png")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -88,7 +99,7 @@ class Mountains extends React.Component{
 
 
                 <div className="ui column" >
-                        <Link to="/mountains">
+                        <Link to="/mountains/uttarakhnd">
                         <Img src={require("../images/mountain-uttarakhnd.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
@@ -108,7 +119,7 @@ class Mountains extends React.Component{
 
                 <div className="ui row">
                 <div className="ui column" > 
-                             <Link to="/mountains">
+                             <Link to="/mountains/kashmir">
                              <Img src={require("../images/Mountain-Kashmir.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -123,7 +134,7 @@ class Mountains extends React.Component{
                              </div>
                 
                              <div className="ui column" > 
-                             <Link to="/mountains">
+                             <Link to="/mountains/karnataka">
                              <Img src={require("../images/mountain-karnataka.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -138,7 +149,7 @@ class Mountains extends React.Component{
                              </div>
 
                              <div className="ui column" > 
-                             <Link to="/mountains">
+                             <Link to="/mountains/kerela">
                              <Img src={require("../images/mountain-kerela.png")}
                                 style={{width:"90%", height:"44vh"}}
                                />
@@ -155,23 +166,10 @@ class Mountains extends React.Component{
 
                 <h1>Most Beautiful Hill Stations In India</h1>
                     <div className="ui row">
-                        <div className="ui column">
-                            <Link to="/mountains">
-                            <Img src={require("../images/mountain-hill.jpg")} 
-                             style={{width:"90%",height:"44vh"}}
-                            />
-                            </Link>
-                            <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Himachal</h4></Link>
-                                <a style={{color:"red"}}>₹ 30,999</a><br></br>
-                                <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
-                            
-                                </div>
-                                <hr></hr>
-                        </div>
+                       
 
                         <div className="ui column">
-                            <Link to="/mountains">
+                            <Link to="/mountains/manali">
                             <Img src={require("../images/mountain-hill1.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
@@ -186,7 +184,7 @@ class Mountains extends React.Component{
                         </div>
 
                         <div className="ui column">
-                            <Link to="/mountains">
+                            <Link to="/mountains/munnar">
                             <Img src={require("../images/mountain-hill3.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
