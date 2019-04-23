@@ -41,7 +41,7 @@ class HoneymoonPackages extends React.Component{
                                  </div>
 
                                  <div className="dropdown">
-                                    <li>Choose Category</li>
+                                    <li className="adjust1">Choose Category</li>
                                     <div className="dropdown-content">
                                         <Link to="/categories/family">Family Holidays</Link>
                                         <Link to="/categories/friends">Friends Road Trips</Link>
@@ -68,12 +68,20 @@ class HoneymoonPackages extends React.Component{
                             <div className="ui row">
                                 <div className="ui column" > 
                                 <Link to="/WildlifeTourism/TigerInIndia">
-                                <Img src={require("../images/tiger.jpg")} 
+                                <Img className="images" src={require("../images/tiger.jpg")} 
                                     style={{width:"90%",height:"44vh"}}
                                     />
                                 </Link>
+                                <Link to="/WildlifeTourism/TigerInIndia" style={{color:"black"}}>
+                                        <div class="centered38" style={{ border: "2px solid black"}}><b><i>Tiger In India<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Tiger Reserves In India
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Tiger Reserves In India
                                     </h4></Link>
                                 </div>
                                     <hr></hr>
@@ -81,12 +89,20 @@ class HoneymoonPackages extends React.Component{
                             
                                 <div className="ui column" >
                                         <Link to="/WildlifeTourism/ElephantsInIndia">
-                                        <Img src={require("../images/elephent1.jpg")} 
+                                        <Img className="images" src={require("../images/elephent1.jpg")} 
                                         style={{width:"90%",height:"44vh"}}
                                         />
                                         </Link>
+                                        <Link to="/WildlifeTourism/ElephantsInIndia" style={{color:"black"}}>
+                                        <div class="centered39" style={{ border: "2px solid black"}}><b><i>Elephants At Dalma<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                         <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>Elephants At Dalma Wildlife Sanctuary</h4></Link>
+                                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Elephants At Dalma Wildlife Sanctuary</h4></Link>
                                         </div>
                                         <hr></hr>        
                                 </div>
@@ -94,12 +110,20 @@ class HoneymoonPackages extends React.Component{
                 
                                 <div className="ui column" >
                                         <Link to="/WildlifeTourism/AsiaLion">
-                                        <Img src={require("../images/Lion.jpg")} 
+                                        <Img className="images" src={require("../images/Lion.jpg")} 
                                         style={{width:"90%",height:"44vh"}}
                                         />
                                         </Link>
+                                        <Link to="/WildlifeTourism/AsiaLion" style={{color:"black"}}>
+                                        <div class="centered40" style={{ border: "2px solid black"}}><b><i>Asiatic Lion<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                         <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>Asiatic Lion In Gir
+                                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Asiatic Lion In Gir
                                                 </h4></Link>
                                         </div>
                                         <hr></hr>        
@@ -110,24 +134,40 @@ class HoneymoonPackages extends React.Component{
                             <div className="ui row">
                             <div className="ui column" > 
                                         <Link to="/WildlifeTourism/BestPlacesTiger">
-                                        <Img src={require("../images/tiger-forest.jpg")}
+                                        <Img className="images" src={require("../images/tiger-forest.jpg")}
                                             style={{width:"90%", height:"44vh"}}
                                         />
                                         </Link>
+                                        <Link to="/WildlifeTourism/BestPlacesTiger" style={{color:"black"}}>
+                                        <div class="centered41" style={{ border: "2px solid black"}}><b><i>Best Places Tiger<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                             <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>8 Best Places Tiger Safari In India!</h4></Link>
+                                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>8 Best Places Tiger Safari In India!</h4></Link>
                                             </div>
                                             <hr></hr>
                                         </div>
                             
                                         <div className="ui column" > 
                                         <Link to="/WildlifeTourism/PannaNationalPark">
-                                        <Img src={require("../images/panna-tiger.jpg")}
+                                        <Img className="images" src={require("../images/panna-tiger.jpg")}
                                             style={{width:"90%", height:"44vh"}}
                                         />
                                         </Link>
+                                        <Link to="/WildlifeTourism/PannaNationalPark" style={{color:"black"}}>
+                                        <div class="centered42" style={{ border: "2px solid black"}}><b><i>Wildlife Panna National<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                             <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>Wildlife Safaris at Panna National Park</h4></Link>
+                                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Wildlife Safaris at Panna National Park</h4></Link>
                                                 
                                             </div>
                                             <hr></hr>
@@ -135,42 +175,45 @@ class HoneymoonPackages extends React.Component{
 
                                         <div className="ui column" > 
                                         <Link to="/WildlifeTourism/PenchNationalPark">
-                                        <Img src={require("../images/panch-park.jpg")}
+                                        <Img className="images" src={require("../images/panch-park.jpg")}
                                             style={{width:"90%", height:"44vh"}}
                                         />
                                         </Link>
+                                        <Link to="/WildlifeTourism/PenchNationalPark" style={{color:"black"}}>
+                                        <div class="centered43" style={{ border: "2px solid black"}}><b><i>Pench National Park<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                             <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>Mowgli's Trail in Pench National Park</h4></Link>
+                                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Mowgli's Trail in Pench National Park</h4></Link>
                                                 
                                             </div>
                                             <hr></hr>
                                         </div> 
                             </div>
 
-                            <h1>Where To See Elephants In India</h1>
+                            
                                 <div className="ui row">
-                                    <div className="ui column">
-                                        <Link to="/WildlifeTourism">
-                                        <Img src={require("../images/park-elephant.jpg")} 
-                                        style={{width:"90%",height:"44vh"}}
-                                        />
-                                        </Link>
-                                        <div className="ui text-block">
-                                        <Link><h4 style={{color:"black"}}>Periyar Boat Safari</h4></Link>
-                                        
-                                        
-                                            </div>
-                                            <hr></hr>
-                                    </div>
-
+                                   
                                     <div className="ui column">
                                         <Link to="/WildlifeTourism/BhadraWildlife">
-                                        <Img src={require("../images/elephent2.jpg")} 
+                                        <Img className="images" src={require("../images/elephent2.jpg")} 
                                         style={{width:"90%",height:"44vh"}}
                                         />
                                         </Link>
+                                        <Link to="/WildlifeTourism/BhadraWildlife" style={{color:"black"}}>
+                                        <div class="centered44" style={{ border: "2px solid black"}}><b><i>Bhadra Wildlife <br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                         <div className="ui text-block">
-                                        <Link><h4 style={{color:"black"}}>Bhadra Wildlife - Into The Wild</h4></Link>
+                                        <Link><h4 style={{color:"black",paddingTop:"20px"}}>Bhadra Wildlife - Into The Wild</h4></Link>
                                         
                                         
                                             </div>
@@ -179,12 +222,20 @@ class HoneymoonPackages extends React.Component{
 
                                     <div className="ui column">
                                         <Link to="/WildlifeTourism/Ranipuram">
-                                        <Img src={require("../images/elephent.jpg_1458193553")} 
+                                        <Img className="images" src={require("../images/elephent.jpg_1458193553")} 
                                         style={{width:"90%",height:"44vh"}}
                                         />
                                         </Link>
+                                        <Link to="/WildlifeTourism/Ranipuram" style={{color:"black"}}>
+                                        <div class="centered45" style={{ border: "2px solid black"}}><b><i>Ranipuram -Hills<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                         <div className="ui text-block">
-                                        <Link><h4 style={{color:"black"}}>Ranipuram -Hills of the western ghats</h4></Link>
+                                        <Link><h4 style={{color:"black",paddingTop:"20px"}}>Ranipuram -Hills of the western ghats</h4></Link>
                                             
                                         
                                             </div>

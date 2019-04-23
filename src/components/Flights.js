@@ -15,14 +15,35 @@ class Hotels extends React.Component{
                         <div className="ui logo">
                             <Img src={require("./images/logo1.png")} alt="a"/>
                         </div>
+                            
                             <ul>
-                                <li><Link to="/forum" className="item">Forum</Link></li>
-                                <li><Link to="/hotels" className="item">Hotels</Link></li>
-                                <li><Link to="/holidays" className="item">Holidays</Link></li>
-                                <li><Link to="/flights" className="item">Flights</Link></li>
-                                <li><Link to="/trips" className="item">Trips</Link></li>
-                                <li><Link to="/user/signin" className="item">Sign In</Link></li>
-                            </ul>
+                                 <div className="dropdown">
+                                    <li>Inspirations</li>
+                                        <div className="dropdown-content">
+                                            <Link to="/inspiration/beaches" className="item">Beaches</Link>
+                                            <Link to="/inspiration/Mountains" className="item">Mountains</Link>
+                                            <Link to="/inspiration/Heritage" className="item">Heritage</Link>
+                                            <Link to="/inspiration/HoneymoonPackages" className="item">Honeymoon Packages</Link>
+                                            <Link to="/inspiration/WildlifeTourism" className="item">Wildlife Tourism</Link>
+                                            <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
+                                        </div> 
+                                 </div>
+                                 <div className="dropdown">
+                                    <li>Choose Category</li>
+                                    <div className="dropdown-content">
+                                        <Link to="/categories/family">Family Holidays</Link>
+                                        <Link to="/categories/friends">Friends Road Trips</Link>
+                                        <Link to="/categories/honeymoon">Honeymoon Special</Link>
+                                        <Link to="/categories/budget">Budget Getaways</Link>
+                                        <Link to="/categories/thrillingtreks">Thrilling Treks</Link>
+                                    </div>
+                                 </div>
+                                    
+                                    <li><Link to="/hotels" className="item">Hotels</Link></li>
+                                    <li><Link to="/flights" className="item">Flights</Link></li>
+                                    <li><Link to="/trips" className="item">Trips</Link></li>
+                                    <li><Link to="/user/signin" className="item">Sign In</Link></li>
+                                </ul>
                         </div>
                     
                     
@@ -45,18 +66,7 @@ class Hotels extends React.Component{
                     </div>
                         
 
-                    <div className="dropdown">
-                            <button className="dropbtn">Inspirations</button>
-                             <div className="dropdown-content">
-                               
-                                <Link to="/inspiration/beaches" className="item">Beaches</Link>
-                               <Link to="/inspiration/Mountains" className="item">Mountains</Link>
-                                <Link to="/inspiration/Heritage" className="item">Heritage</Link>
-                                <Link to="/inspiration/HoneymoonPackages" className="item">Honeymoon Packages</Link>
-                                <Link to="/inspiration/WildlifeTourism" className="item">Wildlife Tourism</Link>
-                                <Link to="/inspiration/RoadTrips" className="item">Road Trips</Link>
-                            </div> 
-                            </div>
+                    
                 </header>
                         <h3 style={{padding:"10px"}}><Link to="/"><i>home/</i></Link>Flights Booking</h3>
                         <div className="ui container" style={{padding:"60px"}}>

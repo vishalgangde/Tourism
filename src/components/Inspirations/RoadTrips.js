@@ -40,7 +40,7 @@ class Beaches extends React.Component{
                                  </div>
 
                                  <div className="dropdown">
-                                    <li>Choose Category</li>
+                                    <li className="adjust1">Choose Category</li>
                                     <div className="dropdown-content">
                                         <Link to="/categories/family">Family Holidays</Link>
                                         <Link to="/categories/friends">Friends Road Trips</Link>
@@ -69,24 +69,40 @@ class Beaches extends React.Component{
                            <div className="ui row">
                              <div className="ui column" > 
                              <Link to="/RoadTrips/SoutherIndia">
-                             <Img src={require("../images/south-road.jpg")}
+                             <Img className="images" src={require("../images/south-road.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/RoadTrips/SoutherIndia" style={{color:"black"}}>
+                                        <div class="centered38" style={{ border: "2px solid black"}}><b><i>Souther India<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>A Road Trip Through Souther India</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>A Road Trip Through Souther India</h4></Link>
                                 </div>
                                 <hr></hr>
                              </div>
                         
                 <div className="ui column" >
                         <Link to="/RoadTrips/RoadTripSpitiValley">
-                        <Img src={require("../images/Spitivalley.jpg&h=380&w=650&zc=1")} 
+                        <Img className="images" src={require("../images/Spitivalley.jpg&h=380&w=650&zc=1")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
+                         <Link to="/RoadTrips/RoadTripSpitiValley" style={{color:"black"}}>
+                                        <div class="centered39" style={{ border: "2px solid black"}}><b><i>Spiti valley<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>A Roadtrip to Spiti valley</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>A Roadtrip to Spiti valley</h4></Link>
                         </div>
                         <hr></hr>        
                 </div>
@@ -94,12 +110,20 @@ class Beaches extends React.Component{
 
                 <div className="ui column" >
                         <Link to="/RoadTrips/RoadTripsRajasthan">
-                        <Img src={require("../images/rajasthan-road.jpg")} 
+                        <Img className="images" src={require("../images/rajasthan-road.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
+                         <Link to="/WildlifeTourism/PenchNationalPark" style={{color:"black"}}>
+                                        <div class="centered40" style={{ border: "2px solid black"}}><b><i>Trip to Rajasthan<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}> 1800 kms road trip to Rajasthan
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}> 1800 kms road trip to Rajasthan
                                 </h4></Link>
                         </div>
                         <hr></hr>        
@@ -110,24 +134,40 @@ class Beaches extends React.Component{
                 <div className="ui row">
                 <div className="ui column" > 
                              <Link to="/RoadTrips/RoadTripBanglore">
-                             <Img src={require("../images/banglore-road.jpg")}
+                             <Img className="images" src={require("../images/banglore-road.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/WildlifeTourism/PenchNationalPark" style={{color:"black"}}>
+                                        <div class="centered41" style={{color:"white", border: "2px solid black"}}><b><i>Bangalore To The Misty<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Road Trip From Bangalore To The Misty Nilgiris</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Road Trip From Bangalore To The Misty Nilgiris</h4></Link>
                                 </div>
                                 <hr></hr>
                              </div>
                 
                              <div className="ui column" > 
                              <Link to="/RoadTrips/ThrillRoadTrips">
-                             <Img src={require("../images/thrill-road1.jpg_1489478640")}
+                             <Img className="images" src={require("../images/thrill-road1.jpg_1489478640")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/WildlifeTourism/PenchNationalPark" style={{color:"black"}}>
+                                        <div class="centered42" style={{ border: "2px solid black"}}><b><i>Thrill-Seeking Road<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Thrill-Seeking Road Trips</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Thrill-Seeking Road Trips</h4></Link>
                                     
                                 </div>
                                 <hr></hr>
@@ -135,12 +175,20 @@ class Beaches extends React.Component{
 
                              <div className="ui column" > 
                              <Link to="/RoadTrips/OotyRoadTrips">
-                             <Img src={require("../images/ooty-road.jpg")}
+                             <Img className="images" src={require("../images/ooty-road.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/WildlifeTourism/PenchNationalPark" style={{color:"black"}}>
+                                        <div class="centered43" style={{color: "white", border: "2px solid black"}}><b><i>Bangalore to Ooty<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Bangalore to Ooty: Perfect Road Trip </h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Bangalore to Ooty: Perfect Road Trip </h4></Link>
                                 </div>
                                 <hr></hr>
                              </div> 

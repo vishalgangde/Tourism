@@ -1,8 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif 
-}
+
 
 .headerr{
   height: 30vh;
@@ -146,18 +142,37 @@ header{
 }
 
 
+.images{
+
+  box-sizing: border-box;
+  transition: transform .2s;
+ 
+  margin: 0 auto;
+}
+
+.images:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
+
+
 
 
 ul{
   
   float: right;
   list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 50px;
   
 }
 
 ul li{
   display: inline-block;
-  margin-top: 2px;
+  margin-top: 0px;
   margin-right: 5px;
   
 
@@ -231,10 +246,7 @@ ul li a:hover{
   transition: 0.8s ease;
 }
 
-.btn:hover{
-  background-color: #EE82EE;
-  
-}
+
 
 
 .dropdown {
@@ -263,7 +275,7 @@ ul li a:hover{
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #FAF0E6;
+  background-color: white;
   min-width: 110px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 15px 16px;
@@ -302,9 +314,17 @@ ul li a:hover{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.adjust {
-  padding : 0px;
+.adjust  {
+  
   font-size: 16px;
+  padding-left: 0px;
+  
+}
+
+.adjust1 {
+  
+  font-size: 16px;
+  padding-left: 0px;
   
 }
 
@@ -547,7 +567,7 @@ ul li a:hover{
     left: 30%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:  ;
   }
 
   .centered1 {
@@ -556,7 +576,16 @@ ul li a:hover{
     left: 16%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;;
+    transition: transform .2s;
+ 
+  margin: 0 auto;
+  }
+
+  .centered1:hover{
+    background-color: transparent;
+    font-size: 25px;
+    
   }
 
   .centered2 {
@@ -568,118 +597,626 @@ ul li a:hover{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
+  .centered2:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
   .centered3{
     position: absolute;
-    top: 128%;
+    top: 125%;
     left: 19%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered3:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
  
   .centered4{
     position: absolute;
-    top: 128%;
+    top: 125%;
     left: 49%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered4:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered5{
     position: absolute;
-    top: 128%;
+    top: 125%;
     left: 79%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered5:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered6{
     position: absolute;
-    top: 204%;
+    top: 209%;
     left: 18%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered6:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered7{
     position: absolute;
-    top: 204%;
+    top: 209%;
     left: 47%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered7:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered8{
     position: absolute;
-    top: 204%;
+    top: 209%;
     left: 79%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered8:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered9{
     position: absolute;
-    top: 280%;
+    top: 293%;
     left: 18%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered9:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered10{
     position: absolute;
-    top: 280%;
+    top: 293%;
     left: 49%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered10:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered11{
     position: absolute;
-    top: 280%;
+    top: 290%;
     left: 79%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered11:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered12{
     position: absolute;
-    top: 356%;
+    top: 373%;
     left: 19%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered12:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered13{
     position: absolute;
-    top: 356%;
+    top: 373%;
     left: 47%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered13:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
   .centered14{
     position: absolute;
-    top: 356%;
+    top: 373%;
     left: 79%;
     transform: translate(-50%, -50%);
     font-size: 22px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered14:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered15{
+    position: absolute;
+    top: 183%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered15:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered16{
+    position: absolute;
+    top: 183%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered16:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered17{
+    position: absolute;
+    top: 183%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered17:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered18{
+    position: absolute;
+    top: 250%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered18:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered19{
+    position: absolute;
+    top: 250%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered19:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered20{
+    position: absolute;
+    top: 250%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered20:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered21{
+    position: absolute;
+    top: 333%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;      
+  }
+
+  .centered21:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered22{
+    position: absolute;
+    top: 333%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    color: white;
+  }
+
+  .centered22:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered23{
+    position: absolute;
+    top: 333%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered23:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered24{
+    position: absolute;
+    top: 150%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered24:hover{
+    background-color: transparent;
+    font-size: 25px;
   }
 
 
+  .centered25{
+    position: absolute;
+    top: 150%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered25:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered26{
+    position: absolute;
+    top: 150%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered26:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
 
 
+  .centered27:hover{
+    position: absolute;
+    top: 400%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
 
+  .centered27:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered28{
+    position: absolute;
+    top: 400%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered28:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered29{
+    position: absolute;
+    top: 400%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered29:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered30:hover{
+    position: absolute;
+    top: 240%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered30:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered31{
+    position: absolute;
+    top: 240%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered31:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered32{
+    position: absolute;
+    top: 240%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered32:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered33{
+    position: absolute;
+    top: 310%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered33:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered34{
+    position: absolute;
+    top: 310%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+  .centered34:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered35{
+    position: absolute;
+    top: 310%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered35:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered36{
+    position: absolute;
+    top: 390%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered36:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered37{
+    position: absolute;
+    top: 390%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered37:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered38{
+    position: absolute;
+    top: 160%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered38:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered39{
+    position: absolute;
+    top: 160%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered39:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered40{
+    position: absolute;
+    top: 160%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered40:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered41{
+    position: absolute;
+    top: 235%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered41:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered42{
+    position: absolute;
+    top: 235%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered42:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered43{
+    position: absolute;
+    top: 235%;
+    left: 79%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered43:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered44{
+    position: absolute;
+    top: 290%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered44:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
+
+  .centered45{
+    position: absolute;
+    top: 290%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+  }
+
+
+  .centered45:hover{
+    background-color: transparent;
+    font-size: 25px;
+  }
 
   .menu ul li{
     position: relative;
@@ -687,10 +1224,16 @@ ul li a:hover{
   
   }
 
+  .container{
+    
+    padding : 15px;
+    
+  }
+
   .input-field0{
-    width: 271px;
-  height: 39  px;
-  border: 2px light grey; 
+    
+
+    border: 2px light grey; 
   }
 
   .input-field1{
@@ -702,6 +1245,8 @@ ul li a:hover{
 		background: #FFFFFF;
 		overflow: hidden;
   }
+
+  .input-field2
 
   /*.input-field2 .btn{
     padding: 5px;
@@ -888,3 +1433,5 @@ ul li a:hover{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
   }
+
+  

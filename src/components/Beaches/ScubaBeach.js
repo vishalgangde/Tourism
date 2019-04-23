@@ -13,8 +13,8 @@ class ScubaBeach extends React.Component{
                 <div className="container">
                 <div class="row">
                     <div class="col-8">
-                        <Img src={require("../images/Scuba Diving.jpg")} 
-                            style={{width:"90%",height:"85vh"}}
+                        <Img  src={require("../images/Scuba Diving.jpg")} 
+                            style={{width:"90%",height:"85vh",border:"1px solid black"}}
                         />
                     </div>
                     <div class="col-4">

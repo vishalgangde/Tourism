@@ -17,7 +17,7 @@ class Packages extends React.Component{
                         </div>
                                 <ul>
                                  <div className="dropdown">
-                                    <li>Inspirations</li>
+                                    <li className="adjust">Inspirations</li>
                                         <div className="dropdown-content">
                                             <Link to="/inspiration/beaches" className="item">Beaches</Link>
                                             <Link to="/inspiration/Mountains" className="item">Mountains</Link>
@@ -28,7 +28,7 @@ class Packages extends React.Component{
                                         </div> 
                                  </div>
                                  <div className="dropdown">
-                                    <li>Choose Category</li>
+                                    <li className="adjust1">Choose Category</li>
                                     <div className="dropdown-content">
                                         <Link to="/categories/family">Family Holidays</Link>
                                         <Link to="/categories/friends">Friends Road Trips</Link>
@@ -69,7 +69,7 @@ class Packages extends React.Component{
                                 <div className="ui row">
                                     <div className="ui column" > 
                                         <Link to="/lehladakh/">
-                                            <Img src={require("./images/laddak2.jpeg")}
+                                            <Img className="images" src={require("./images/laddak2.jpeg")}
                                             style={{width:"90%", height:"44vh"}}
                                             />
                                         </Link>
@@ -82,7 +82,7 @@ class Packages extends React.Component{
                                         </div>
                                         </Link>
                                         <div className="ui text-block">
-                                            <Link><h4 style={{color:"black"}}>Leh Ladakh Leh Places</h4></Link>
+                                            <Link><h4 style={{color:"black",padding:"10px"}}>Leh Ladakh Leh Places</h4></Link>
                                             <br></br>
                                             <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
                                         </div>
@@ -90,7 +90,7 @@ class Packages extends React.Component{
                                     </div>
                                     <div className="ui column" >
                                         <Link to="/Gujrat Royality">
-                                            <Img src={require("./images/gujarat2.jpeg")} 
+                                            <Img className="images" src={require("./images/gujarat2.jpeg")} 
                                             style={{width:"90%",height:"44vh"}}
                                             />
                                         </Link>
@@ -103,7 +103,7 @@ class Packages extends React.Component{
                                             </div>
                                         </Link>
                                         <div className="ui text-block">
-                                            <Link><h4 style={{color:"black"}}>Gujrat Royality of Sasangir,Somnath</h4></Link>
+                                            <Link><h4 style={{color:"black",padding:"10px"}}>Gujrat Royality of Sasangir,Somnath</h4></Link>
                                             <br></br>
                                             <Link to="/vishal tours/Gujrat">Vishal Tours</Link>
                                         </div>
@@ -111,7 +111,7 @@ class Packages extends React.Component{
                                     </div>
                                     <div className="ui column">
                                         <Link to="/tour-package/North-East">
-                                            <Img src= {require("./images/northeast.jpg")} 
+                                            <Img className="images" src= {require("./images/northeast.jpg")} 
                                             style={{width:"90%", height:"44vh"}}
                                             />
                                         </Link>
@@ -124,7 +124,7 @@ class Packages extends React.Component{
                                             </div>
                                         </Link>
                                         <div className="ui text-block">
-                                            <Link><h4 style={{color:"black"}}>North-East Cherrapunji</h4></Link>
+                                            <Link><h4 style={{color:"black",padding:"10px"}}>North-East Cherrapunji</h4></Link>
                                             <br></br>
                                             <Link to="vishal tours/north-east">Vishal Tours</Link>
                                         </div>
@@ -135,7 +135,7 @@ class Packages extends React.Component{
                                     <div className="ui row">
                                         <div className="ui column">
                                             <Link to="/tour-package/Pondicherry">
-                                                <Img src={require("./images/pondichery.jpeg")} 
+                                                <Img className="images" src={require("./images/pondichery.jpeg")} 
                                                 style={{width:"90%",height:"44vh"}}
                                                 />
                                             </Link>
@@ -148,7 +148,7 @@ class Packages extends React.Component{
                                             </div>
                                             </Link>
                                             <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>Pondicherry Karaikal Beach</h4></Link>
+                                                <Link><h4 style={{color:"black",padding:"10px"}}>Pondicherry Karaikal Beach</h4></Link>
                                                 <br></br>
                                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                                             </div>
@@ -156,7 +156,7 @@ class Packages extends React.Component{
                                         </div>
                                         <div className="ui column">
                                             <Link to="/tour-package/Rajasthan">
-                                                <Img src={require("./images/rajasthan2.jpeg")}
+                                                <Img className="images" src={require("./images/rajasthan2.jpeg")}
                                                 style={{width:"90%",height:"44vh"}}
                                                 />
                                             </Link>
@@ -169,7 +169,7 @@ class Packages extends React.Component{
                                             </div>
                                             </Link>
                                             <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>Rajasthan Pushkar Raj-Mahal</h4></Link>
+                                                <Link><h4 style={{color:"black",padding:"10px"}}>Rajasthan Pushkar Raj-Mahal</h4></Link>
                                                 <br></br>
                                                 <Link to="MakeMyTrip/rajasthan">MakeMyTrip</Link>
                                             </div>
@@ -177,7 +177,7 @@ class Packages extends React.Component{
                                         </div>
                                         <div className="ui column"> 
                                             <Link to="/tour-package/Rohtang Pass Manali">
-                                                <Img src={require("./images/kullu3.jpeg")}
+                                                <Img className="images" src={require("./images/kullu3.jpeg")}
                                                 style={{width:"90%",height:"44vh"}}
                                                 />
                                             </Link>
@@ -190,7 +190,7 @@ class Packages extends React.Component{
                                                 </div>
                                             </Link>
                                             <div className="ui text-block">
-                                                <Link><h4 style={{color:"black"}}>Rohtang Pass Manali</h4></Link>
+                                                <Link><h4 style={{color:"black",padding:"10px"}}>Rohtang Pass Manali</h4></Link>
                                                 <br></br>
                                                 <Link to="trivago/manali">Trivago</Link>
                                             </div>
@@ -201,7 +201,7 @@ class Packages extends React.Component{
                                         <div className="ui row">
                                            <div className="ui column">
                                                 <Link to="/tour-package/Andaman Nikobar Beach">
-                                                    <Img src= {require("./images/honeymoon.jpeg")}
+                                                    <Img className="images" src= {require("./images/honeymoon.jpeg")}
                                                     style={{width:"90%",height:"45vh"}}
                                                     />
                                                 </Link>
@@ -214,7 +214,7 @@ class Packages extends React.Component{
                                                 </div>
                                                 </Link>
                                                 <div className="ui text-block">
-                                                    <Link><h4 style={{color:"black"}}>Andaman Nikobar Beach</h4></Link>
+                                                    <Link><h4 style={{color:"black",padding:"10px"}}>Andaman Nikobar Beach</h4></Link>
                                                     <br></br>
                                                     <Link to="vishal tours/andaman">Vishal Tours</Link>
                                                 </div>
@@ -222,7 +222,7 @@ class Packages extends React.Component{
                                             </div>
                                             <div className="ui column">
                                                     <Link to="/tour-package/Goa Chapora Beach">
-                                                        <Img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                                        <Img className="images" src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                                         style={{width:"90%",height:"45vh"}}
                                                         />
                                                     </Link>
@@ -235,7 +235,7 @@ class Packages extends React.Component{
                                                         </div>
                                                     </Link>
                                                     <div className="ui text-block">
-                                                        <Link><h4 style={{color:"black"}}>Goa Chapora Beach</h4></Link>
+                                                        <Link><h4 style={{color:"black",padding:"10px"}}>Goa Chapora Beach</h4></Link>
                                                         <br></br>
                                                         <Link to="gangde agencies/goa">Gangde Agencies</Link>
                                                     </div>
@@ -243,7 +243,7 @@ class Packages extends React.Component{
                                             </div>
                                             <div className="ui column"> 
                                                 <Link to="/tour-package/Kerela Chavakkad">
-                                                    <Img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkafguPCecXVXbfsHMu4ihKqtdcQvyoU8TennXQ90qNFXFkj5gw"
+                                                    <Img className="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbkafguPCecXVXbfsHMu4ihKqtdcQvyoU8TennXQ90qNFXFkj5gw"
                                                     style={{width:"90%", height:"45vh"}}
                                                     />
                                                 </Link>
@@ -256,7 +256,7 @@ class Packages extends React.Component{
                                                     </div>
                                                 </Link>
                                                 <div className="ui text-block">
-                                                    <Link><h4 style={{color:"black"}}>Kerela Chavakkad Beach</h4></Link>
+                                                    <Link><h4 style={{color:"black",padding:"10px"}}>Kerela Chavakkad Beach</h4></Link>
                                                     <br></br>
                                                     <Link to="chouhan agencies/kerela">Chouhan Agencies</Link>
                                                 </div>
@@ -267,7 +267,7 @@ class Packages extends React.Component{
                                             <div className="ui row">
                                                 <div className="ui column">
                                                     <Link to="/tour-package/Leh to Manali">
-                                                        <Img src={require("./images/biking.jpeg")}
+                                                        <Img className="images" src={require("./images/biking.jpeg")}
                                                         style={{width:"90%", height:"45vh"}}
                                                         />
                                                     </Link>
@@ -280,7 +280,7 @@ class Packages extends React.Component{
                                                         </div>
                                                     </Link>
                                                     <div className="ui text-block">
-                                                        <Link><h4 style={{color:"black"}}>Leh to Manali Highway</h4></Link>
+                                                        <Link><h4 style={{color:"black",padding:"10px"}}>Leh to Manali Highway</h4></Link>
                                                         <br></br>
                                                         <Link to="chouhan agencies/lehtomanali">Chouhan Agencies</Link>
                                                     </div>
@@ -288,7 +288,7 @@ class Packages extends React.Component{
                                                 </div>
                                                 <div className="ui column">
                                                     <Link to="/tour-package/Guwahati to Tawang">
-                                                        <Img src={require("./images/biking1.jpeg")}
+                                                        <Img className="images" src={require("./images/biking1.jpeg")}
                                                         style={{width:"90%",height:"45vh"}}
                                                         />
                                                     </Link>
@@ -301,7 +301,7 @@ class Packages extends React.Component{
                                                         </div>
                                                     </Link>
                                                     <div className="ui text-block">
-                                                        <Link><h4 style={{color:"black"}}>Guwahati to Tawang</h4></Link>
+                                                        <Link><h4 style={{color:"black",padding:"10px"}}>Guwahati to Tawang</h4></Link>
                                                         <br></br>
                                                         <Link to="chouhan agencies/guwahatitotawang">Chouhan Agencies</Link>
                                                     </div>
@@ -309,7 +309,7 @@ class Packages extends React.Component{
                                                 </div>
                                                 <div className="ui column"> 
                                                     <Link to="/tour-package/Shimla to Manali">
-                                                        <Img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovdOzvdmvUQEARH8VCzI82syqB2CCIg4wswq84hQBWKPJEmiFkw"
+                                                        <Img className="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovdOzvdmvUQEARH8VCzI82syqB2CCIg4wswq84hQBWKPJEmiFkw"
                                                         style={{width:"90%",height:"45vh"}}
                                                         />
                                                     </Link>
@@ -322,7 +322,7 @@ class Packages extends React.Component{
                                                         </div>
                                                     </Link>
                                                     <div className="ui text-block">
-                                                        <Link><h4 style={{color:"black"}}>Shimla to Manali via Mandi</h4></Link>
+                                                        <Link><h4 style={{color:"black",padding:"10px"}}>Shimla to Manali via Mandi</h4></Link>
                                                         <br></br>
                                                         <Link to="gangdeji agencies/shimlatomanali">Gangdeji Agencies</Link>
                                                         <hr></hr>   

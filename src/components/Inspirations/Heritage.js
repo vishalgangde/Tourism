@@ -40,7 +40,7 @@ class Heritage extends React.Component{
                                  </div>
 
                                  <div className="dropdown">
-                                    <li>Choose Category</li>
+                                    <li className="adjust1">Choose Category</li>
                                     <div className="dropdown-content">
                                         <Link to="/categories/family">Family Holidays</Link>
                                         <Link to="/categories/friends">Friends Road Trips</Link>
@@ -69,12 +69,20 @@ class Heritage extends React.Component{
                            <div className="ui row">
                              <div className="ui column" > 
                              <Link to="/heritage/rajasthan">
-                             <Img src={require("../images/heritage-rajasthan.webp")}
+                             <Img className="images" src={require("../images/heritage-rajasthan.webp")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered24" style={{ border: "2px solid black",color:"white"}}><b><i>Rajasthan<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Rajasthan</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Rajasthan</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -84,12 +92,20 @@ class Heritage extends React.Component{
                         
                 <div className="ui column" >
                         <Link to="/heritage/orissa">
-                        <Img src={require("../images/heritage-orissa.png")} 
+                        <Img className="images" src={require("../images/heritage-orissa.png")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
+                         <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered25" style={{ border: "2px solid black",color:"white"}}><b><i>Orissa<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Orissa
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Orissa
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 29,999
                                 </a>
@@ -103,12 +119,20 @@ class Heritage extends React.Component{
 
                 <div className="ui column" >
                         <Link to="/heritage/tamil">
-                        <Img src={require("../images/heritage-tamil.jpg")} 
+                        <Img className="images" src={require("../images/heritage-tamil.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
+                         <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered26" style={{ border: "2px solid black"}}><b><i>Tamil Nadu<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Tamil Nadu
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Tamil Nadu
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 29,999
                                 </a>
@@ -123,12 +147,20 @@ class Heritage extends React.Component{
                 <div className="ui row">
                 <div className="ui column" > 
                              <Link to="/heritage/madhya">
-                             <Img src={require("../images/heritage-madhya.jpg")}
+                             <Img className="images" src={require("../images/heritage-madhya.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered18" style={{ border: "2px solid black",color:"white"}}><b><i>Madhya Pradesh<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Madhya Pradesh</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Madhya Pradesh</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -138,12 +170,20 @@ class Heritage extends React.Component{
                 
                              <div className="ui column" > 
                              <Link to="/heritage/delhi">
-                             <Img src={require("../images/heritage-delhi.jpg")}
+                             <Img className="images" src={require("../images/heritage-delhi.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered19" style={{ border: "2px solid black",color:"white"}}><b><i>Delhi<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Delhi</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Delhi</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -153,12 +193,20 @@ class Heritage extends React.Component{
 
                              <div className="ui column" > 
                              <Link to="/heritage/maharastra">
-                             <Img src={require("../images/heritage-maharastra.JPG")}
+                             <Img className="images" src={require("../images/heritage-maharastra.JPG")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered20" style={{ border: "2px solid black",color:"white"}}><b><i>Maharastra<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Maharastra</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Maharastra</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -171,12 +219,20 @@ class Heritage extends React.Component{
                     <div className="ui row">
                         <div className="ui column">
                             <Link to="/heritage/gwaliorfort">
-                            <Img src={require("../images/heritage-gwalior.jpeg")} 
+                            <Img className="images" src={require("../images/heritage-gwalior.jpeg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered21" style={{ border: "2px solid black"}}><b><i>Gwalior Fort<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Gwalior Fort</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Gwalior Fort</h4></Link>
                                 <a style={{color:"red"}}>Madhya Pradesh</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -186,12 +242,20 @@ class Heritage extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage/golcondafort">
-                            <Img src={require("../images/heritage-hydrabaad.jpg")} 
+                            <Img className="images" src={require("../images/heritage-hydrabaad.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered22" style={{ border: "2px solid black"}}><b><i>Golconda Fort<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Golconda Fort </h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Golconda Fort </h4></Link>
                                 <a style={{color:"red"}}>Hydrabaad</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -201,12 +265,20 @@ class Heritage extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage/chittorgarhfort">
-                            <Img src={require("../images/heritage-fort.png")} 
+                            <Img className="images" src={require("../images/heritage-fort.png")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered23" style={{ border: "2px solid black",color:"white"}}><b><i>Chittorgarh Fort<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Chittorgarh Fort</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Chittorgarh Fort</h4></Link>
                                 <a style={{color:"red"}}>Rajasthan</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -219,12 +291,20 @@ class Heritage extends React.Component{
                     <div className="ui row">
                         <div className="ui column">
                             <Link to="/heritage/tajmahal">
-                            <Img src={require("../images/tajmahal.jpg")} 
+                            <Img className="images" src={require("../images/tajmahal.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/tajmahal" style={{color:"black"}}>
+                                        <div class="centered30" style={{ border: "2px solid black"}}><b><i>The-Taj Mahal<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Taj Mahal</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Taj Mahal</h4></Link>
                                 <a style={{color:"red"}}>Agra</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -234,12 +314,20 @@ class Heritage extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage/fatehpur">
-                            <Img src={require("../images/bibi ka makbara1.jpg")} 
+                            <Img className="images" src={require("../images/bibi ka makbara1.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered28" style={{ border: "2px solid black"}}><b><i>Fatehpur Sikri<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Fatehpur Sikri</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Fatehpur Sikri</h4></Link>
                                 <a style={{color:"red"}}>Hydrabaad</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -249,12 +337,20 @@ class Heritage extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage/humayun">
-                            <Img src={require("../images/humayu.jpg")} 
+                            <Img className="images" src={require("../images/humayu.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered29" style={{ border: "2px solid black"}}><b><i>Humayun's Tomb<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Humayun's Tomb</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Humayun's Tomb</h4></Link>
                                 <a style={{color:"red"}}>Delhi</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             

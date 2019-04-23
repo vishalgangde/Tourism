@@ -69,24 +69,24 @@ class FriendsTrips extends React.Component{
                            <div className="ui row">
                              <div className="ui column" > 
                              <Link to="/roadtrip">
-                             <Img src={require("../images/south-road.jpg")}
+                             <Img className="images" src={require("../images/roadtrip_our_team.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>A Road Trip Through Souther India</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>A Road Trip Through Souther India</h4></Link>
                                 </div>
                                 <hr></hr>
                              </div>
                         
                 <div className="ui column" >
                         <Link to="/roadtrip">
-                        <Img src={require("../images/Spitivalley.jpg&h=380&w=650&zc=1")} 
+                        <Img className="images" src={require("../images/Road-trip-in-Coonoor.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>A Roadtrip to Spiti valley</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>A Roadtrip to Spiti valley</h4></Link>
                         </div>
                         <hr></hr>        
                 </div>
@@ -94,12 +94,12 @@ class FriendsTrips extends React.Component{
 
                 <div className="ui column" >
                         <Link to="/roadtrip">
-                        <Img src={require("../images/rajasthan-road.jpg")} 
+                        <Img className="images" src={require("../images/rajasthan-road.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}> 1800 kms road trip to Rajasthan
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}> 1800 kms road trip to Rajasthan
                                 </h4></Link>
                         </div>
                         <hr></hr>        
@@ -110,24 +110,24 @@ class FriendsTrips extends React.Component{
                 <div className="ui row">
                 <div className="ui column" > 
                              <Link to="/roadtrip">
-                             <Img src={require("../images/banglore-road.jpg")}
+                             <Img className="images" src={require("../images/roadtripfrnd.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Road Trip From Bangalore To The Misty Nilgiris</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Road Trip From Bangalore To The Misty Nilgiris</h4></Link>
                                 </div>
                                 <hr></hr>
                              </div>
                 
                              <div className="ui column" > 
                              <Link to="/roadtrip">
-                             <Img src={require("../images/thrill-road1.jpg_1489478640")}
+                             <Img className="images" src={require("../images/roadtrips1.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Thrill-Seeking Road Trips</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Thrill-Seeking Road Trips</h4></Link>
                                     
                                 </div>
                                 <hr></hr>
@@ -135,12 +135,12 @@ class FriendsTrips extends React.Component{
 
                              <div className="ui column" > 
                              <Link to="/roadtrip">
-                             <Img src={require("../images/ooty-road.jpg")}
+                             <Img className="images" src={require("../images/roadtrips.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Bangalore to Ooty: Perfect Road Trip </h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Bangalore to Ooty: Perfect Road Trip </h4></Link>
                                 </div>
                                 <hr></hr>
                              </div> 

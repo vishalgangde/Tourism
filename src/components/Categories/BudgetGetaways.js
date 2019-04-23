@@ -63,12 +63,12 @@ class BudgetGetaways extends React.Component{
                    <div className="ui row">
                              <div className="ui column" > 
                              <Link to="/ThrillingTreks">
-                             <Img src={require("../images/thrilling-1.webp")} 
+                             <Img className="images" src={require("../images/thrilling-1.webp")} 
                                  style={{width:"90%",height:"44vh"}}
                                 />
                              </Link>
                              <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>McLeodganj Tour Package</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>McLeodganj Tour Package</h4></Link>
                                 <a  style={{color:"red"}}>₹ 5,599
                                 </a>
                                 <br></br>
@@ -80,12 +80,12 @@ class BudgetGetaways extends React.Component{
                         
                 <div className="ui column" >
                         <Link to="/ThrillingTreks">
-                        <Img src={require("../images/thrilling-bhrigu.jpg")} 
+                        <Img className="images" src={require("../images/Goa beach.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Bhrigu Lake Trekking Expedition</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Bhrigu Lake Trekking Expedition</h4></Link>
                                 <a  style={{color:"red"}}>₹ 5,999
                                 </a>
                                 <br></br>
@@ -98,12 +98,12 @@ class BudgetGetaways extends React.Component{
                 
                 <div className="ui column" >
                         <Link to="/ThrillingTreks">
-                        <Img src={require("../images/thrilling-hampta-trek.jpg")} 
+                        <Img className="images" src={require("../images/Tourist_Kerala.png")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Manali Tour</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Manali Tour</h4></Link>
                                 <a  style={{color:"red"}}>₹ 5,699
                                 </a>
                                 <br></br>
@@ -118,12 +118,12 @@ class BudgetGetaways extends React.Component{
                 <div className="ui row">
                 <div className="ui column" > 
                              <Link to="/ThrillingTreks">
-                             <Img src={require("../images/thrilling1.jpg")}
+                             <Img className="images" src={require("../images/camel-safari.jpg.webp")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Sar Pass Trekking Tour</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Sar Pass Trekking Tour</h4></Link>
                                     <a  style={{color:"red"}}>₹ 8,500 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -133,12 +133,12 @@ class BudgetGetaways extends React.Component{
                 
                              <div className="ui column" > 
                              <Link to="/ThrillingTreks">
-                             <Img src={require("../images/thrilling-Har_ki_Doon.jpg.webp")}
+                             <Img className="images" src={require("../images/North-East-India-Tour-Packages.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>4 days In Goa</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>4 days In Goa</h4></Link>
                                     <a  style={{color:"red"}}>₹ 9,299 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -148,12 +148,12 @@ class BudgetGetaways extends React.Component{
 
                              <div className="ui column" > 
                              <Link to="/ThrillingTreks">
-                             <Img src={require("../images/thrilling2.jpg")}
+                             <Img className="images" src={require("../images/Shimla-Manali-Honeymoon-Tour.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Har Ki Doon & Jaundhar Glacier Trek</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Har Ki Doon & Jaundhar Glacier Trek</h4></Link>
                                     <a  style={{color:"red"}}>₹ 9,799 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>

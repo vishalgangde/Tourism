@@ -40,7 +40,7 @@ class Beaches extends React.Component{
                                  </div>
                                  
                                  <div className="dropdown">
-                                    <li>Choose Category</li>
+                                    <li className="adjust1">Choose Category</li>
                                     <div className="dropdown-content">
                                         <Link to="/categories/family">Family Holidays</Link>
                                         <Link to="/categories/friends">Friends Road Trips</Link>
@@ -75,12 +75,20 @@ class Beaches extends React.Component{
                            <div className="ui row">
                              <div className="ui column" > 
                              <Link to="/beaches/GoaBeach">
-                             <Img src={require("../images/goa-beaches.png")}
+                             <Img className="images" src={require("../images/goa-beaches.png")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered15" style={{ border: "2px solid black"}}><b><i>Goa<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Goa</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Goa</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -90,12 +98,20 @@ class Beaches extends React.Component{
                         
                 <div className="ui column" >
                         <Link to="/beaches/PondicherryBeach">
-                        <Img src={require("../images/beach-pondicherry.jpg")} 
+                        <Img className="images" src={require("../images/beach-pondicherry.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
+                         <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered16" style={{ border: "2px solid black"}}><b><i>Pondicherry<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Pondicherry
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Pondicherry
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 29,999
                                 </a>
@@ -109,12 +125,20 @@ class Beaches extends React.Component{
 
                 <div className="ui column" >
                         <Link to="/beaches/AndamanBeach">
-                        <Img src={require("../images/beach-andaman.jpg")} 
+                        <Img className="images" src={require("../images/beach-andaman.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
+                         <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered17" style={{ border: "2px solid black"}}><b><i>Andaman and Nicobar<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Andaman and Nicobar
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Andaman and Nicobar
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 29,999
                                 </a>
@@ -129,12 +153,20 @@ class Beaches extends React.Component{
                 <div className="ui row">
                 <div className="ui column" > 
                              <Link to="/beaches/KerelaBeach">
-                             <Img src={require("../images/beach-kerela.jpg")}
+                             <Img className="images" src={require("../images/beach-kerela.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered18" style={{ border: "2px solid black"}}><b><i>kerela<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>kerela</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>kerela</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -144,12 +176,20 @@ class Beaches extends React.Component{
                 
                              <div className="ui column" > 
                              <Link to="/beaches/MaharastraBeach">
-                             <Img src={require("../images/beach-maharastra.png")}
+                             <Img className="images" src={require("../images/beach-maharastra.png")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered19" style={{ border: "2px solid black"}}><b><i>Maharastra<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Maharastra</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Maharastra</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -159,12 +199,20 @@ class Beaches extends React.Component{
 
                              <div className="ui column" > 
                              <Link to="/beaches/TamilBeach">
-                             <Img src={require("../images/beach-tamil.jpg")}
+                             <Img className="images" src={require("../images/beach-tamil.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
+                               <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered20" style={{ border: "2px solid black"}}><b><i>Tamil Nadu<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Tamil Nadu</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Tamil Nadu</h4></Link>
                                     <a  style={{color:"red"}}>₹ 27,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -177,12 +225,20 @@ class Beaches extends React.Component{
                     <div className="ui row">
                         <div className="ui column">
                             <Link to="/beaches/ScubaBeach">
-                            <Img src={require("../images/beach-adventure.png")} 
+                            <Img className="images" src={require("../images/beach-adventure.png")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered21" style={{ border: "2px solid black"}}><b><i>Scuba Diving<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Scuba Diving In The Andamans</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Scuba Diving In The Andamans</h4></Link>
                                 <a style={{color:"red"}}>₹ 30,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -192,12 +248,20 @@ class Beaches extends React.Component{
 
                         <div className="ui column">
                             <Link to="/beaches/CoastalTreks">
-                            <Img src={require("../images/beach-coastal.jpg")} 
+                            <Img className="images" src={require("../images/beach-coastal.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered22" style={{ border: "2px solid black"}}><b><i>Coastal Treks<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Coastal Treks In India</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Coastal Treks In India</h4></Link>
                                 <a style={{color:"red"}}>₹ 30,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -207,12 +271,20 @@ class Beaches extends React.Component{
 
                         <div className="ui column">
                             <Link to="/beaches/Flyboarding">
-                            <Img src={require("../images/beach-flord.jpg")} 
+                            <Img className="images" src={require("../images/beach-flord.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
+                            <Link to="/lehladakh/" style={{color:"black"}}>
+                                        <div class="centered23" style={{ border: "2px solid black"}}><b><i>Flyboarding In Goa<br/></i>
+                                            <br/>
+                                            ₹ 21,999 Per Person<br/>
+                                            6 Days / 5 Nights<br/>
+                                            </b>
+                                        </div>
+                                        </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>All About Flyboarding In Goa</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>All About Flyboarding In Goa</h4></Link>
                                 <a style={{color:"red"}}>₹ 30,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             

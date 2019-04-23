@@ -71,12 +71,12 @@ class HoneymoonSpecial extends React.Component{
                            <div className="ui row">
                              <div className="ui column" > 
                              <Link to="/honeymoonpackages">
-                             <Img src={require("../images/kerela.jpg")} 
+                             <Img className="images" src={require("../images/affordablehoneymoon.jpg")} 
                                  style={{width:"90%",height:"44vh"}}
                                 />
                              </Link>
                              <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Kerela 5 days package
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Kerela 5 days package
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 22,999
                                 </a>
@@ -89,12 +89,12 @@ class HoneymoonSpecial extends React.Component{
                         
                 <div className="ui column" >
                         <Link to="/heritage">
-                        <Img src={require("../images/kashmir.jpeg")} 
+                        <Img className="images" src={require("../images/kashmirhoney.jpeg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Kashmir Tour Package
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Kashmir Tour Package
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 13,999
                                 </a>
@@ -108,12 +108,12 @@ class HoneymoonSpecial extends React.Component{
                 
                 <div className="ui column" >
                         <Link to="/heritage">
-                        <Img src={require("../images/northeast1.jpg")} 
+                        <Img className="images" src={require("../images/Honeymoon-Destinations.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Darjeeling and Gangtok Tour
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Darjeeling and Gangtok Tour
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 19,999
                                 </a>
@@ -129,12 +129,12 @@ class HoneymoonSpecial extends React.Component{
                 <div className="ui row">
                 <div className="ui column" > 
                              <Link to="/heritage">
-                             <Img src={require("../images/kullu3.jpeg")}
+                             <Img className="images" src={require("../images/shimala.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Shimla & Manali</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Shimla & Manali</h4></Link>
                                     <a  style={{color:"red"}}>₹ 15,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -144,12 +144,12 @@ class HoneymoonSpecial extends React.Component{
                 
                              <div className="ui column" > 
                              <Link to="/heritage">
-                             <Img src={require("../images/goa.jpg")}
+                             <Img className="images" src={require("../images/HnyMoon.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>4 days in Goa</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>4 days in Goa</h4></Link>
                                     <a  style={{color:"red"}}>₹ 17,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -159,12 +159,12 @@ class HoneymoonSpecial extends React.Component{
 
                              <div className="ui column" > 
                              <Link to="/heritage">
-                             <Img src={require("../images/andaman.png")}
+                             <Img className="images" src={require("../images/andaman.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Andaman Vacation</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Andaman Vacation</h4></Link>
                                     <a  style={{color:"red"}}>₹ 13,999 </a>
                                      <br></br>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -177,12 +177,12 @@ class HoneymoonSpecial extends React.Component{
                     <div className="ui row">
                         <div className="ui column">
                             <Link to="/heritage">
-                            <Img src={require("../images/laddak.jpeg")} 
+                            <Img className="images" src={require("../images/leh-ladakh-north-india.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>5 days In Ladakh</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>5 days In Ladakh</h4></Link>
                                 <a style={{color:"red"}}>₹ 19,900</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -192,12 +192,12 @@ class HoneymoonSpecial extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage">
-                            <Img src={require("../images/laddak3.jpeg")} 
+                            <Img className="images" src={require("../images/leh.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Leh Nubra Pangong</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Leh Nubra Pangong</h4></Link>
                                 <a style={{color:"red"}}>₹ 43,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -207,12 +207,12 @@ class HoneymoonSpecial extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage">
-                            <Img src={require("../images/laddak1.jpeg")} 
+                            <Img className="images" src={require("../images/laddak.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Shrinagar, kargil & Leh</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Shrinagar, kargil & Leh</h4></Link>
                                 <a style={{color:"red"}}>₹ 53,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -225,12 +225,12 @@ class HoneymoonSpecial extends React.Component{
                     <div className="ui row">
                         <div className="ui column">
                             <Link to="/heritage">
-                            <Img src={require("../images/mountain-himachal.png")} 
+                            <Img className="images" src={require("../images/manali-honeymoon.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Trip To McLeod Ganj</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Trip To McLeod Ganj</h4></Link>
                                 <a style={{color:"red"}}>₹ 6,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -240,12 +240,12 @@ class HoneymoonSpecial extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage">
-                            <Img src={require("../images/mountain-hill1.jpg")} 
+                            <Img className="images" src={require("../images/Gulmarg.png")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>4 days Kullu & Manali Tour</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>4 days Kullu & Manali Tour</h4></Link>
                                 <a style={{color:"red"}}>₹ 13,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             
@@ -255,12 +255,12 @@ class HoneymoonSpecial extends React.Component{
 
                         <div className="ui column">
                             <Link to="/heritage">
-                            <Img src={require("../images/mountain-hill.jpg")} 
+                            <Img className="images" src={require("../images/dharmashala.jpg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Dharamshala – Land Of The Lamas</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Dharamshala – Land Of The Lamas</h4></Link>
                                 <a style={{color:"red"}}>₹ 13,999</a><br></br>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
                             

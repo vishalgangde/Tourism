@@ -14,7 +14,7 @@ class AndamanVacation extends React.Component{
                 <div class="row">
                     <div class="col-8">
                         <Img src={require("../images/andaman-honeymoon.jpg")} 
-                            style={{width:"90%",height:"85vh"}}
+                            style={{width:"90%",height:"85vh",border:"1px solid black"}}
                         />
                     </div>
                     <div class="col-4">

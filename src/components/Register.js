@@ -30,7 +30,7 @@ class Register extends React.Component {
 
         return (
             <div className={className}>
-                <label>{label}</label>
+                <label style={{color:"#1E90FF"}}>{label}</label>
                 <input {...input} type={type} autoComplete="on" />
                 {this.renderError(meta)}
             </div>
@@ -43,7 +43,7 @@ class Register extends React.Component {
 
         return (
             <div className={className}>
-                <label>{label}</label>
+                <label style={{color:"#1E90FF"}}>{label}</label>
                 <input {...input} type={email} autoComplete="on" />
                 {this.renderError(meta)}
             </div>
@@ -57,7 +57,7 @@ class Register extends React.Component {
 
         return (
             <div className={className}>
-                <label>{label}</label>
+                <label style={{color:"#1E90FF"}}>{label}</label>
                 <input {...input} type="date" autoComplete="on" />
                 {this.renderError(meta)}
             </div>
@@ -74,7 +74,7 @@ class Register extends React.Component {
         return(
             <div className={className}>
 
-            <label>{label}</label>
+            <label style={{color:"#1E90FF"}}>{label}</label>
             <select {...input} autoComplete="on" >
             <option value="">choose your option</option>
             <option value="Mumbai">Mumbai</option>
@@ -99,7 +99,7 @@ class Register extends React.Component {
         return(
             <div className={className}>
 
-            <label>{label}</label>
+            <label style={{color:"#1E90FF"}}>{label}</label>
             <select {...input} autoComplete="on" >
             <option value="">choose your option</option>
             <option value="1">1</option>
@@ -120,7 +120,7 @@ class Register extends React.Component {
 
 
     onSubmit = (formValues) => {
-        console.log(formValues);
+        console.log('I love u 2', formValues);
         Axios.post('http://localhost:3001/tours&travels' , formValues).then(res => {
             console.log(res , "response")
         }).catch(err => {
@@ -141,11 +141,11 @@ class Register extends React.Component {
                         className="ui form error"
                     >
 
-                        <Field style={{fontSize:"15px",color:"#249BDB"}} name="fullname" component={this.renderInput} label="Full Name" />
-                        <Field style={{fontSize:"15px",color:"#249BDB"}} name="email" component={this.renderInputMail} label="Email" />
-                        <Field style={{fontSize:"15px",color:"#249BDB"}} name="mobileno" component={this.renderInput} label="Mobile No." />
-                        <Field style={{fontSize:"15px",color:"#249BDB"}} name="depturecity" component={this.renderInputDropDown} label="Depture City" />
-                        <Field style={{fontSize:"15px",color:"#249BDB"}} name="depturedate" component={this.renderInputDate} label="Depture Date" />
+                        <Field style={{fontSize:"15px",color:"grey"}} name="fullname" component={this.renderInput} label="Full Name" />
+                        <Field style={{fontSize:"15px",color:"grey"}} name="email" component={this.renderInputMail} label="Email" />
+                        <Field style={{fontSize:"15px",color:"grey"}} name="mobileno" component={this.renderInput} label="Mobile No." />
+                        <Field style={{fontSize:"15px",color:"grey"}} name="depturecity" component={this.renderInputDropDown} label="Depture City" />
+                        <Field style={{fontSize:"15px",color:"grey"}} name="depturedate" component={this.renderInputDate} label="Depture Date" />
                         <Field style={{fontSize:"15px",color:"#249BDB"}} name="numberofpeople" component={this.renderNOInputDropDown} label="Number Of People" />
                         <button className="input-field2" type="submit" className="btn" style={{backgroundColor:"orange"}}>I'm interested</button>
                     </form>

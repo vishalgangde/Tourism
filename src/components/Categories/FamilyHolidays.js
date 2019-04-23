@@ -76,12 +76,12 @@ class Packages extends React.Component{
                            <div className="ui row">
                              <div className="ui column" > 
                              <Link to="/familyholiday">
-                             <Img src={require("../images/family-ladakh1.jpg")}
+                             <Img className="images" src={require("../images/family-ladakh1.jpg")}
                                 style={{width:"90%", height:"44vh"}}
                                />
                                </Link>
                                 <div className="ui text-block">
-                                    <Link><h4 style={{color:"black"}}>Leh Ladakh Leh Places</h4></Link>
+                                    <Link><h4 style={{color:"black",paddingTop:"20px"}}>Leh Ladakh Leh Places</h4></Link>
                                     <a  style={{color:"red"}}>₹ 12,199 </a>
                                     <h5>Per Person</h5>
                                     <Link to="/vishal tours/Leh Ladakh">Vishal Tours</Link>
@@ -91,12 +91,12 @@ class Packages extends React.Component{
                         
                 <div className="ui column" >
                         <Link to="/familyholiday">
-                        <Img src={require("../images/family-gujarat.jpg")} 
+                        <Img className="images" src={require("../images/family-gujarat.jpg")} 
                         style={{width:"90%",height:"44vh"}}
                          />
                          </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Somnath,Gujarat
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Somnath,Gujarat
                                 </h4></Link>
                                 <a  style={{color:"red"}}>₹ 11,899
                                 </a>
@@ -109,12 +109,12 @@ class Packages extends React.Component{
                 
                 <div className="ui column">
                     <Link to="/familyholiday">
-                    <Img src= {require("../images/family-north.jpg")} 
+                    <Img className="images" src= {require("../images/family-north.jpg")} 
                      style={{width:"90%", height:"44vh"}}
                      />
                      </Link>
                         <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>North-East Cherrapunji</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>North-East Cherrapunji</h4></Link>
                                 <a   style={{color:"red"}}>₹ 10,500</a>
                                 <h5>Per Person</h5>
                                 <Link to="vishal tours/north-east">Vishal Tours</Link>
@@ -131,12 +131,12 @@ class Packages extends React.Component{
                     <div className="ui row">
                         <div className="ui column">
                             <Link to="/familyholiday">
-                            <Img src={require("../images/family-pondicherry.jpeg")} 
+                            <Img className="images" src={require("../images/family-pondicherry.jpeg")} 
                              style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                               <Link><h4 style={{color:"black"}}>Matrimandir Pondicherry</h4></Link>
+                               <Link><h4 style={{color:"black",paddingTop:"20px"}}>Matrimandir Pondicherry</h4></Link>
                                 <a style={{color:"red"}}>₹ 8,499</a>
                                 <h5>Per Person</h5>
                                 <Link to="MakeMyTrip/pondicherry">MakeMyTrip</Link>
@@ -147,12 +147,12 @@ class Packages extends React.Component{
                         
                         <div className="ui column">
                             <Link to="/familyholiday">
-                            <Img src={require("../images/family-rajasthan.jpg")}
+                            <Img className="images" src={require("../images/family-rajasthan.jpg")}
                             style={{width:"90%",height:"44vh"}}
                             />
                             </Link>
                             <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Rajasthan Pushkar Raj-Mahal</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Rajasthan Pushkar Raj-Mahal</h4></Link>
                                 <a style={{color:"red"}}>₹ 9,200</a>
                                 <h5>Per Person</h5>
                                 <Link to="MakeMyTrip/rajasthan">MakeMyTrip</Link>
@@ -163,12 +163,12 @@ class Packages extends React.Component{
                         
                         <div className="ui column"> 
                             <Link to="/familyholiday">
-                            <Img src={require("../images/family-manali.jpeg")}
+                            <Img className="images" src={require("../images/family-manali.jpeg")}
                              style={{width:"90%",height:"44vh"}}
                              />
                              </Link>
                              <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Hadimba Temple Manali</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Hadimba Temple Manali</h4></Link>
                                 <a style={{color:"red"}}>₹ 7,999</a>
                                 <h5>Per Person</h5>
                                 <Link to="trivago/manali">Trivago</Link>
@@ -182,12 +182,12 @@ class Packages extends React.Component{
                 <div className="ui row">
                         <div className="ui column">
                                 <Link to="/familyholiday">
-                                <Img src= {require("../images/leh-ladakh4.jpg")}
+                                <Img className="images" src= {require("../images/leh-ladakh4.jpg")}
                               style={{width:"90%",height:"45vh"}}
                               />
                               </Link>
                               <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Hemis Leh Ladakh</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Hemis Leh Ladakh</h4></Link>
                                 <a style={{color:"red"}}>₹ 5,399</a>
                                 <h5>Per Person</h5>
                                 <Link to="vishal tours/andaman">Vishal Tours</Link>
@@ -199,12 +199,12 @@ class Packages extends React.Component{
                         </div>
                         <div className="ui column">
                             <Link to="/familyholiday">
-                            <Img src={require("../images/family-ladakh.jpg")}
+                            <Img className="images" src={require("../images/family-ladakh.jpg")}
                              style={{width:"90%",height:"45vh"}}
                             />
                             </Link>
                              <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Chadar Trek Ladakh</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Chadar Trek Ladakh</h4></Link>
                                 <a style={{color:"red"}}>₹ 4,500</a>
                                 <h5>Per Person</h5>
                                 <Link to="gangde agencies/goa">Gangde Agencies</Link>
@@ -214,12 +214,12 @@ class Packages extends React.Component{
                         </div>
                         <div className="ui column"> 
                             <Link to="/familyholiday">
-                            <Img src= {require("../images/family-ladakh2.png")}
+                            <Img className="images" src= {require("../images/family-ladakh2.png")}
                              style={{width:"90%", height:"45vh"}}
                              />
                              </Link>
                              <div className="ui text-block">
-                                <Link><h4 style={{color:"black"}}>Leh Palace</h4></Link>
+                                <Link><h4 style={{color:"black",paddingTop:"20px"}}>Leh Palace</h4></Link>
                                 <a style={{color:"red"}}>₹ 6,299</a>
                                 <h5>Per Person</h5>
                                 <Link to="chouhan agencies/kerela">Chouhan Agencies</Link>

@@ -14,7 +14,7 @@ class PenchNationalPark extends React.Component{
                 <div class="row">
                     <div class="col-8">
                         <Img src={require("../images/kanha-pench.jpg")} 
-                            style={{width:"90%",height:"85vh"}}
+                            style={{width:"90%",height:"85vh",border:"1px solid black"}}
                         />
                     </div>
                     <div class="col-4">
@@ -24,7 +24,7 @@ class PenchNationalPark extends React.Component{
                 
                 
                 </div>
-                   <div class="centered1" style={{color:"white",border:"2px solid black"}}><b><i>Romantic Honeymoon Goa<br/></i>
+                   <div class="centered1" style={{color:"white",border:"2px solid black"}}><b><i>Pench National Park<br/></i>
                         <br/>
                         ₹ 30,000 Per Person<br/>
                         6 Days / 5 Nights<br/>
